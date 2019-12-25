@@ -541,29 +541,18 @@ An object is called iterable if we can get an iterator from it
 
 2. **Access modes**
 
-     1. ``r''   Open text file for reading.  The stream is positioned at the
-             beginning of the file.
-
-     1. ``r+''  Open for reading and writing.  The stream is positioned at the
-             beginning of the file.
-
-     1. ``w''   Truncate file to zero length or create text file for writing.
-             The stream is positioned at the beginning of the file.
-
-     1. ``w+''  Open for reading and writing.  The file is created if it does not
-             exist, otherwise it is truncated.  The stream is positioned at
-             the beginning of the file.
-
-     1. ``a''   Open for writing.  The file is created if it does not exist.  The
-             stream is positioned at the end of the file.  Subsequent writes
-             to the file will always end up at the then current end of file,
-             irrespective of any intervening fseek(3) or similar.
-
-     1. ``a+''  Open for reading and writing.  The file is created if it does not
-             exist.  The stream is positioned at the end of the file.  Subse-
-             quent writes to the file will always end up at the then current
-             end of file, irrespective of any intervening fseek(3) or similar.
-
+    1. <r>	It opens a file in read-only mode while the file offset stays at the root.
+    1. <rb>	It opens a file in (binary + read-only) modes. And the offset remains at the root level.
+    1. <r+>	It opens the file in both (read + write) modes while the file offset is again at the root level.
+    1. <rb+>	It opens the file in (read + write + binary) modes. The file offset is again at the root level.
+    1. <w>	It allows write-level access to a file. If the file already exists, then it’ll get overwritten. It’ll create a new file if the same doesn’t exist.
+    1. <wb>	Use it to open a file for writing in binary format. Same behavior as for write-only mode.
+    1. <w+>	It opens a file in both (read + write) modes. Same behavior as for write-only mode.
+    1. <wb+>	It opens a file in (read + write + binary) modes. Same behavior as for write-only mode.
+    1. <a>	It opens the file in append mode. The offset goes to the end of the file. If the file doesn’t exist, then it gets created.
+    1. <ab>	It opens a file in (append + binary) modes. Same behavior as for append mode.
+    1. <a+>	It opens a file in (append + read) modes. Same behavior as for append mode.
+    1. <ab+>	It opens a file in (append + read + binary) modes. Same behavior as for append mode.
     1. 'x'	Creates a new file. If file already exists, the operation fails.
     1. 't'	This is the default mode. It opens in text mode.
     1. 'b'	This opens in binary mode.
@@ -611,6 +600,7 @@ An object is called iterable if we can get an iterator from it
 
 6. Working with csv files
 7. working with JSON data
+8. Python File Encoding
 
 ---------------------------------------------------------------------------------------------------------------------
 ### Context Managers
