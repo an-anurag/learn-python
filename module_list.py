@@ -4,6 +4,9 @@ Built in modules
         argparse
     C:
         csv
+    D:
+        datetime
+
     F:
         fileinput
     G:
@@ -30,6 +33,7 @@ Built in modules
     T:
         tempfile
         tarfile
+        time
     Z:
         zipfile
 """

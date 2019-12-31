@@ -683,6 +683,21 @@ An object is called iterable if we can get an iterator from it
                * UnicodeWarning
                * BytesWarning
                * ResourceWarning
+
+---------------------------------------------------------------------------------------------------------------------
+
+## Modular Python
+1. Builtin modules
+2. User defined modules
+3. Imports
+    1. Absolute imports
+    2. Relative imports
+4. Module aliasing while importing
+5. Member aliasing
+6. Reloading a module
+7. Finding members of module using dir()
+4. `if __name__ == '__main__'`
+               
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Regular expression
@@ -745,24 +760,30 @@ An object is called iterable if we can get an iterator from it
     1. [re.U]	Make { \w,\W,\b,\B} follows Unicode rules
     1. [re.L]	Make {\w,\W,\b,\B} follow locale
     1. [re.X]	Allow comment in Regex
----------------------------------------------------------------------------------------------------------------------
 
-## Modular Python
-1. Builtin modules
-2. User defined modules
-3. Imports
-    1. Absolute imports
-    2. Relative imports
-4. Module aliasing while importing
-5. Member aliasing
-6. Reloading a module
-7. Finding members of module using dir()
-4. `if __name__ == '__main__'`
+---------------------------------------------------------------------------------------------------------------------
+### Date and time
+
+1. Modules
+1. Methods
 
 ---------------------------------------------------------------------------------------------------------------------
 ### Database Programming
 
-1. Modules:
+1. DB-API
+1. Modules
+1. Connections
+1. Cursors
+1. Connection strings
+1. Exceptions
+1. Methods
+    1. connect()
+    1. execute()
+    1. executemany()
+    1. fetch()
+    1. fetchone()
+    1. fetchall()
+    1. close()    
 
 ---------------------------------------------------------------------------------------------------------------------
 
