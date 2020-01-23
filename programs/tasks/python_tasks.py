@@ -8,4 +8,5 @@ PYTHON
 5. Create python logger with two separate file handlers for logging info only and error only to them.
 6. Write row to destination csv file from source csv file multiple times. If numeric value column present then increment the values till row count.
 7. Write single regex to match two different string content.
+8. Download AWS CloudWatch logs to file.
 """
