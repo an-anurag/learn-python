@@ -12,4 +12,6 @@ PYTHON
 9. Create utc datetime
 10. Create datetime object from string
 11. Calculate diff between two times
+12. create data stream and send to UDP host over socket
+
 """
