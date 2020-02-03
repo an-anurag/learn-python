@@ -13,5 +13,7 @@ PYTHON
 10. Create datetime object from string
 11. Calculate diff between two times
 12. create data stream and send to UDP host over socket
-
+13. request API with content-type = json
+14. Iterate nested dictionary and print key, value
+15. Parse XML response with xml.etree.ElementTree
 """
