@@ -16,4 +16,11 @@ PYTHON
 13. request API with content-type = json
 14. Iterate nested dictionary and print key, value
 15. Parse XML response with xml.etree.ElementTree
+16. Handle UnicodeEncodeError
+17. Debug python code with pdb
+18. Create dictionary with comprehension
+19. Read a hidden file present in home dir representing wiht ~/ .aws/ ...
+20. Reading conf/cfg file using ConfigParser
+21. Reading conf/cfg file using ConfigParser with interpolation
+22. Extending sys.path.expand([]) for importing
 """

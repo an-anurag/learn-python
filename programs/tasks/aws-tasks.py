@@ -5,4 +5,5 @@ AWS
 2. build alexa skill for notifying user about SIEM alarms, using alexa proactive events api
 3. create a lambda function deployment package with python and upload to lambda
 4. Forward ClouddTrail Events to Cloudwatch log group
+5. configure AWS credential in boto3 by reading aws conf file
 """
