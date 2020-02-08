@@ -19,8 +19,9 @@ PYTHON
 16. Handle UnicodeEncodeError
 17. Debug python code with pdb
 18. Create dictionary with comprehension
-19. Read a hidden file present in home dir representing wiht ~/ .aws/ ...
+19. Read a hidden file present in home dir representing with ~/ .aws/ ...
 20. Reading conf/cfg file using ConfigParser
 21. Reading conf/cfg file using ConfigParser with interpolation
 22. Extending sys.path.expand([]) for importing
+23. Develop dynamic regex generator
 """
