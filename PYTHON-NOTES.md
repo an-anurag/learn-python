@@ -765,6 +765,9 @@ An object is called iterable if we can get an iterator from it
 ### Date and time
 
 1. Modules
+    1. `time`
+    1. `datetime`
+    
 1. Methods
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -794,8 +797,105 @@ An object is called iterable if we can get an iterator from it
 
 ## Object Oriented Python
 
-### Python magic methods (Object oriented python)
+### Classes and Objects
+1. Creating class
+1. Creating object
+1. Reference variable
+1. `self` variable
+1. Constructor
+1. Variables
+    1. Instance variables
+        1. Operations
+            1. Creation
+                1. Inside Constructor by using self variable
+                1. Inside Instance Method by using self variable:
+                1. Outside of the class by using object reference variable:
+            2. Access
+                We can access instance variables with in the class by using self variable and outside of the class by
+                using object reference.
+            3. Deletion
+                1. Within a class we can delete instance variable as follows
+                del self.variableName
+                2. From outside of class we can delete instance variables as follows
+                del objectreference.variableName
+                 
+    1. static variables
+        1. Operations
+            1. Creation
+                1. In general we can declare within the class directly but from out side of any method
+                2. Inside constructor by using class name
+                3. Inside instance method by using class name
+                4. Inside classmethod by using either class name or cls variable
+                5. Inside static method by using class name
+            2. Access
+                1. inside constructor: by using either self or classname
+                2. inside instance method: by using either self or classname
+                3. inside class method: by using either cls variable or classname
+                4. inside static method: by using classname
+                5. From outside of class: by using either object reference or classnmae
+            3. Modification
+                If we change the value of static variable by using either self
+                or object reference variable:
+            3. Deletion
+                We can delete static variables from anywhere by using the following syntax
+                del classname.variablename
+                But inside classmethod we can also use cls variable
+                del cls.variablename
 
+    1. local variables
+        1. Operations
+            1. Creation
+            2. Access
+            3. Modification
+            3. Deletion
+            
+1. Methods
+    1. Instance methods
+        1. Setter and Getter Methods:
+    1. Class methods
+    1. Static methods
+    
+1. Passing members of one class to another class:
+
+1. Inner classes:
+
+1. Abstract Base Classes
+    1. abstractmethod
+    1. abstractstaticmethod
+    1. abstrctclassmethod
+
+### Inheritance/ Aggregation / is a
+1. Liskov substitution principle.
+1. New-style and classic classes
+1. Exceptions Are an Exception
+1. Types
+    1. Single
+    1. Multiple
+        1. The Diamond Problem or the ,deadly diamond of death''
+        1. super and MRO
+    1. Multilevel
+    1. Hybrid
+    
+1. Difference between `type` and `isinstance`
+
+1. Distinction between Overwriting, Overloading and Overriding
+
+1. Overwriting
+    1. Nothing to do with OOP
+    1. Simply make first definition unavailable
+    
+1. Method Overriding
+    1. super()
+    1. Constructor overriding
+    1. Method Overriding
+    
+1. Method Overloading:
+    1. Not supported
+
+### Composition / has a
+    
+        
+### Python magic methods (Object oriented python)
     # Numeric magic methods
 
         # 1 Unary operators and functions
