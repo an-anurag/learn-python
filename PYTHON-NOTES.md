@@ -859,11 +859,6 @@ An object is called iterable if we can get an iterator from it
 
 1. Inner classes:
 
-1. Abstract Base Classes
-    1. abstractmethod
-    1. abstractstaticmethod
-    1. abstrctclassmethod
-
 ### Inheritance/ Aggregation / is a
 1. Liskov substitution principle.
 1. New-style and classic classes
@@ -891,6 +886,11 @@ An object is called iterable if we can get an iterator from it
     
 1. Method Overloading:
     1. Not supported
+    
+1. Abstract Base Classes
+    1. abstractmethod
+    1. abstractstaticmethod
+    1. abstrctclassmethod
 
 ### Composition / has a
     

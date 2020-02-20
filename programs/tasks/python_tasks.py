@@ -24,4 +24,6 @@ PYTHON
 21. Reading conf/cfg file using ConfigParser with interpolation
 22. Extending sys.path.expand([]) for importing
 23. Develop dynamic regex generator
+24. Run more than one function simultaneously.
+25. Run more than one generators simultaneously.
 """
