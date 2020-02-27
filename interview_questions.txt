@@ -15,6 +15,7 @@ PYTHON
 13. Difference between append and extend list methods
 14. How to list out files and folders in a directory
 15. What is *args and **kwargs
+16. Difference between generators and iterators
 
 DJANGO
 
