@@ -16,6 +16,7 @@ PYTHON
 14. How to list out files and folders in a directory
 15. What is *args and **kwargs
 16. Difference between generators and iterators
+17. What is the diff between == and is
 
 DJANGO
 
