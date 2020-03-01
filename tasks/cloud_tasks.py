@@ -6,6 +6,8 @@ AWS
 3. create a lambda function deployment package with python and upload to lambda
 4. Forward ClouddTrail Events to Cloudwatch log group
 5. configure AWS credential in boto3 by reading aws conf file
+6. Install cloudwatch agent on ec2 instance
+7. Setup lambda local dev env
 
 DATABRICKS
 
