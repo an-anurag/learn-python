@@ -503,7 +503,7 @@ An object is called iterable if we can get an iterator from it
         3. returning passed function reference
     7. generators
         1. Using functions
-        2. Using tuple comprehension
+        2. Using generator expressions
         3. yield from
         4. `send()`
     8. function decorators
@@ -893,25 +893,30 @@ An object is called iterable if we can get an iterator from it
     1. abstrctclassmethod
 
 ### Composition / has a
+
+### Abstraction
+
+### Encapsulation
+
+### Polymorphism
     
-        
-### Python magic methods (Object oriented python)
-    # Numeric magic methods
+1. Python magic methods (Object oriented python)
+    1. Numeric magic methods
 
-        # 1 Unary operators and functions
-
-            __pos__(self)
+        1. Unary operators and functions
+    
+            `__pos__(self)
             __neg__(self)
             __abs__(self)
             __invert__(self)
             __round__(self, n)
             __floor__(self)
             __ceil__(self)
-            __trunc__(self)
-
-        2 Normal arithmetic operators
-
-            __add__(self, other)
+            __trunc__(self)`
+    
+        1. Normal arithmetic operators
+    
+            `__add__(self, other)
             __sub__(self, other)
             __mul__(self, other)
             __floordiv__(self, other)
@@ -924,11 +929,11 @@ An object is called iterable if we can get an iterator from it
             __rshift__(self, other)
             __and__(self, other)
             __or__(self, other)
-            __xor__(self, other)
-
-        # 3 Reflected arithmetic operators
-
-            __radd__(self, other)
+            __xor__(self, other)`
+    
+        1. Reflected arithmetic operators
+    
+            `__radd__(self, other)
             __rsub__(self, other)
             __rmul__(self, other)
             __rfloordiv__(self, other)
@@ -941,11 +946,11 @@ An object is called iterable if we can get an iterator from it
             __rrshift__(self, other)
             __rand__(self, other)
             __ror__(self, other)
-            __rxor__(self, other)
+            __rxor__(self, other)`
 
-    # 4 Augmented assignment
-
-        __iadd__(self, other)
+    1. Augmented assignment
+    
+        `__iadd__(self, other)
         __isub__(self, other)
         __imul__(self, other)
         __ifloordiv__(self, other)
@@ -957,11 +962,11 @@ An object is called iterable if we can get an iterator from it
         __irshift__(self, other)
         __iand__(self, other)
         __ior__(self, other)
-        __ixor__(self, other)
-
-    # 5 Type conversion magic methods
-
-        __int__(self)
+        __ixor__(self, other)`
+    
+    1. Type conversion magic methods
+    
+        `__int__(self)
         __long__(self)
         __float__(self)
         __complex__(self)
@@ -969,68 +974,89 @@ An object is called iterable if we can get an iterator from it
         __hex__(self)
         __index__(self)
         __trunc__(self)
-        __coerce__(self, other)
+        __coerce__(self, other)`
 
-    # Representing your Classes.
-
-        __str__(self)
+    1. Representing your Classes.
+    
+        `__str__(self)
         __repr__(self)
         __unicode__(self)
         __format__(self, formatstr)
         __hash__(self)
         __nonzero__(self)
         __dir__(self)
-        __sizeof__(self)
-
-    # Controlling Attribute Access
-
-        __getattr__(self, name)
+        __sizeof__(self)`
+    
+    1. Controlling Attribute Access
+    
+        `__getattr__(self, name)
         __setattr__(self, name, value)
         __delattr__(self, name)
-        __getattribute__(self, name)
-
-    # Making Custom Sequences
-
-        __len__(self)
+        __getattribute__(self, name)`
+    
+    1. Making Custom Sequences
+    
+        `__len__(self)
         __getitem__(self, key)
         __setitem__(self, key, value)
         __delitem__(self, key)
         __iter__(self)
         __reversed__(self)
         __contains__(self, item)
-        __missing__(self, key)
-
-    # Reflection
-
-        __instancecheck__(self, instance)
-        __subclasscheck__(self, subclass)
-
-    # Context Managers
-
-        __enter__(self)
-        __exit__(self, exception_type, exception_value, traceback)
-
-    # Building Descriptor Objects
-
-        __get__(self, instance, owner)
+        __missing__(self, key)`
+    
+    1. Reflection
+    
+        `__instancecheck__(self, instance)
+        __subclasscheck__(self, subclass)`
+    
+    1. Context Managers
+    
+        `__enter__(self)
+        __exit__(self, exception_type, exception_value, traceback)`
+    
+    1. Building Descriptor Objects
+    
+        `__get__(self, instance, owner)
         __set__(self, instance, value)
-        __delete__(self, instance)
-
-    # Copying
-
-        __copy__(self)
-        __deepcopy__(self, memodict={})
-
-    # Pickling your own Objects
-
-        __getinitargs__(self)
+        __delete__(self, instance)`
+    
+    1. Copying
+    
+        `__copy__(self)
+        __deepcopy__(self, memodict={})`
+    
+    1. Pickling your own Objects
+    
+        `__getinitargs__(self)
         __getnewargs__(self)
         __getstate__(self)
         __setstate__(self, state)
         __reduce__(self)
         __reduce_ex__(self)
         __reduce_ex__ exists for compatibility. If it is defined, __reduce_ex__ will be called over __reduce__ on pickling.
-        __reduce__ can be defined as well for older versions of the pickling API that did not support __reduce_ex__.
+        __reduce__ can be defined as well for older versions of the pickling API that did not support __reduce_ex__.`
+
+
+### Concurrency & Multiprogramming
+1. Multithreading
+    1. What Is a Thread?
+    1. Starting a Thread
+    1. Working With Many Threads
+    1. Using a ThreadPoolExecutor
+    1. Race Conditions
+    1. Basic Synchronization Using Lock
+    1. Deadlock
+    1. Producer-Consumer Threading
+    1. Threading Objects
+    
+2. Multiprocessing
+3. Co-routines
+4. AsyncIO
+    1. `async` & `await`
+    1. Async generator
+
+---------------------------------------------------------------------------------------------------------------------
 
 
 ### Packages
