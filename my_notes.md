@@ -518,19 +518,27 @@ An object is called iterable if we can get an iterator from it
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Special variables
-1. `__init__`
-1. `__name__`
-1. `__main__`
-1. `__doc__`
-1. `__closure__`
-1. `__module__`
-1. `__file__`
-1. `__builtins__`
-1. `__loader__`
-1. `__spec__`
-1. `__package__`
-1. `__class__`
+
 1. `__bases__`
+1. `__builtins__`
+1. `__class__`
+1. `__closure__`
+1. `__dict__`
+1. `__doc__`
+1. `__file__`
+1. `__init__`
+1. `__init_subclass__`
+1. `__loader__`
+1. `__main__`
+1. `__module__`
+1. `__new__`
+1. `__name__`
+1. `__package__`
+1. `__slots__`
+1. `__subclasshook__`
+1. `__spec__`
+1. `__weakref__`
+
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -800,6 +808,7 @@ An object is called iterable if we can get an iterator from it
 ### Classes and Objects
 1. Creating class
 1. Creating object
+1. Old style and new style classes
 1. Reference variable
 1. `self` variable
 1. Constructor
@@ -851,7 +860,6 @@ An object is called iterable if we can get an iterator from it
             
 1. Methods
     1. Instance methods
-        1. Setter and Getter Methods:
     1. Class methods
     1. Static methods
     
@@ -859,19 +867,80 @@ An object is called iterable if we can get an iterator from it
 
 1. Inner classes:
 
-### Inheritance/ Aggregation / is a
-1. Liskov substitution principle.
-1. New-style and classic classes
+1. Meta classes
+
+    
+### Object Relationships  
+
+#### Inheritance/ Aggregation / is a
+
+1. Strong relation
+
 1. Exceptions Are an Exception
+    1. Exception class do not derived from object
+    
+1. `super()`
+    1. Technically, super() doesn’t return a method. 
+    1. It returns a proxy object. 
+    1. This is an object that delegates calls to the correct class methods without making an additional object.
+    1. In Python 3, the super(Square, self) call is equivalent to the parameterless super() call.
+    
+1. MRO, `__mro__`
+    1. The method resolution order (or MRO) tells Python how to search for inherited methods.
+
 1. Types
     1. Single
     1. Multiple
-        1. The Diamond Problem or the ,deadly diamond of death''
+        1. The Diamond Problem or the ,deadly diamond of death
         1. super and MRO
     1. Multilevel
     1. Hybrid
     
 1. Difference between `type` and `isinstance`
+
+
+### Composition / has a
+
+1. classes is composed of one or more instance of other classes.
+1. weak relation
+
+### Abstraction
+1. Implementation hiding.
+1. Abstract classes
+1. Abstract methods
+1. module `abc`
+1. Abstract Base Classes
+    1. Abstract base classes exist to be inherited, but never instantiated.
+    1. You can use leading underscores in your class name to tell that objects of that class should not be created.
+    1. abstractmethod
+    1. abstractstaticmethod -> depricated P3.3
+    1. abstrctclassmethod -> depricated P3.3
+    
+1. Interfaces
+    1. Informal Interface
+        1. Using Metaclasses
+        1. Virtual base class
+            1. virtual base classes don’t appear in the subclass MRO.
+    1. Formal interface
+        1. Using abc.ABCMeta
+        1. Using .__subclasshook__()
+        1. Using abc to Register a Virtual Subclass
+    
+    
+### Encapsulation
+1.  Information hiding.
+1. We are all adults here
+1. protected variables
+1. private variables (name mangling)
+1. Setter and Getter Methods:
+1. Property
+    1. getter
+    1. setter
+    1. deleter
+    
+### Polymorphism
+
+1. Duck Typing Philosophy of Python
 
 1. Distinction between Overwriting, Overloading and Overriding
 
@@ -879,164 +948,87 @@ An object is called iterable if we can get an iterator from it
     1. Nothing to do with OOP
     1. Simply make first definition unavailable
     
-1. Method Overriding
-    1. super()
+1. Overriding
     1. Constructor overriding
     1. Method Overriding
     
-1. Method Overloading:
-    1. Not supported
-    
-1. Abstract Base Classes
-    1. abstractmethod
-    1. abstractstaticmethod
-    1. abstrctclassmethod
-
-### Composition / has a
-
-### Abstraction
-
-### Encapsulation
-
-### Polymorphism
+1. Overloading:
+    1. Operator Overloading
+    2. Method Overloading
+    3. Constructor Overloading
     
 1. Python magic methods (Object oriented python)
     1. Numeric magic methods
 
         1. Unary operators and functions
     
-            `__pos__(self)
-            __neg__(self)
-            __abs__(self)
-            __invert__(self)
-            __round__(self, n)
-            __floor__(self)
-            __ceil__(self)
-            __trunc__(self)`
+            `__pos__(self), __neg__(self), __abs__(self), __invert__(self), __round__(self, n), __floor__(self)
+            __ceil__(self), __trunc__(self)`
     
         1. Normal arithmetic operators
     
-            `__add__(self, other)
-            __sub__(self, other)
-            __mul__(self, other)
-            __floordiv__(self, other)
-            __div__(self, other)
-            __truediv__(self, other)
-            __mod__(self, other)
-            __divmod__(self, other)
-            __pow__
-            __lshift__(self, other)
-            __rshift__(self, other)
-            __and__(self, other)
-            __or__(self, other)
-            __xor__(self, other)`
+            `__add__(self, other), __sub__(self, other), __mul__(self, other), __floordiv__(self, other), __div__(self, other)
+            __truediv__(self, other), __mod__(self, other), __divmod__(self, other), __pow__, __lshift__(self, other)
+            __rshift__(self, other), __and__(self, other), __or__(self, other), __xor__(self, other)`
     
         1. Reflected arithmetic operators
     
-            `__radd__(self, other)
-            __rsub__(self, other)
-            __rmul__(self, other)
-            __rfloordiv__(self, other)
-            __rdiv__(self, other)
-            __rtruediv__(self, other)
-            __rmod__(self, other)
-            __rdivmod__(self, other)
-            __rpow__
-            __rlshift__(self, other)
-            __rrshift__(self, other)
-            __rand__(self, other)
-            __ror__(self, other)
-            __rxor__(self, other)`
+            `__radd__(self, other), __rsub__(self, other), __rmul__(self, other), __rfloordiv__(self, other)
+            __rdiv__(self, other), __rtruediv__(self, other), __rmod__(self, other), __rdivmod__(self, other)
+            __rpow__, __rlshift__(self, other), __rrshift__(self, other), __rand__(self, other)
+            __ror__(self, other), __rxor__(self, other)`
 
     1. Augmented assignment
     
-        `__iadd__(self, other)
-        __isub__(self, other)
-        __imul__(self, other)
-        __ifloordiv__(self, other)
-        __idiv__(self, other)
-        __itruediv__(self, other)
-        __imod__(self, other)
-        __ipow__
-        __ilshift__(self, other)
-        __irshift__(self, other)
-        __iand__(self, other)
-        __ior__(self, other)
-        __ixor__(self, other)`
+        `__iadd__(self, other), __isub__(self, other), __imul__(self, other), __ifloordiv__(self, other)
+        __idiv__(self, other), __itruediv__(self, other), __imod__(self, other), __ipow__, __ilshift__(self, other)
+        __irshift__(self, other), __iand__(self, other), __ior__(self, other), __ixor__(self, other)`
     
     1. Type conversion magic methods
     
-        `__int__(self)
-        __long__(self)
-        __float__(self)
-        __complex__(self)
-        __oct__(self)
-        __hex__(self)
-        __index__(self)
-        __trunc__(self)
-        __coerce__(self, other)`
+        `__int__(self), __long__(self), __float__(self), __complex__(self), __oct__(self), __hex__(self)
+        __index__(self), __trunc__(self), __coerce__(self, other)`
 
     1. Representing your Classes.
     
-        `__str__(self)
-        __repr__(self)
-        __unicode__(self)
-        __format__(self, formatstr)
-        __hash__(self)
-        __nonzero__(self)
-        __dir__(self)
-        __sizeof__(self)`
+        `__str__(self), __repr__(self), __unicode__(self), __format__(self, formatstr), __hash__(self)
+        __nonzero__(self), __dir__(self), __sizeof__(self)`
     
     1. Controlling Attribute Access
     
-        `__getattr__(self, name)
-        __setattr__(self, name, value)
-        __delattr__(self, name)
-        __getattribute__(self, name)`
+        `__getattr__(self, name), __setattr__(self, name, value), __delattr__(self, name), __getattribute__(self, name)`
     
     1. Making Custom Sequences
     
-        `__len__(self)
-        __getitem__(self, key)
-        __setitem__(self, key, value)
-        __delitem__(self, key)
-        __iter__(self)
-        __reversed__(self)
-        __contains__(self, item)
-        __missing__(self, key)`
+        `__len__(self), __getitem__(self, key), __setitem__(self, key, value), __delitem__(self, key), __iter__(self)
+        __reversed__(self), __contains__(self, item), __missing__(self, key)`
     
     1. Reflection
     
-        `__instancecheck__(self, instance)
-        __subclasscheck__(self, subclass)`
+        `__instancecheck__(self, instance), __subclasscheck__(self, subclass)`
     
     1. Context Managers
     
-        `__enter__(self)
-        __exit__(self, exception_type, exception_value, traceback)`
+        `__enter__(self), __exit__(self, exception_type, exception_value, traceback)`
     
     1. Building Descriptor Objects
     
-        `__get__(self, instance, owner)
-        __set__(self, instance, value)
-        __delete__(self, instance)`
+        `__get__(self, instance, owner), __set__(self, instance, value), __delete__(self, instance)`
     
     1. Copying
     
-        `__copy__(self)
-        __deepcopy__(self, memodict={})`
+        `__copy__(self), __deepcopy__(self, memodict={})`
     
     1. Pickling your own Objects
     
-        `__getinitargs__(self)
-        __getnewargs__(self)
-        __getstate__(self)
-        __setstate__(self, state)
-        __reduce__(self)
-        __reduce_ex__(self)
-        __reduce_ex__ exists for compatibility. If it is defined, __reduce_ex__ will be called over __reduce__ on pickling.
-        __reduce__ can be defined as well for older versions of the pickling API that did not support __reduce_ex__.`
+        `__getinitargs__(self), __getnewargs__(self), __getstate__(self), __setstate__(self, state), __reduce__(self)
+        __reduce_ex__(self), __reduce_ex__, __reduce__`
 
+### Garbage collector
+
+### Destructors
+
+### Descriptor
 
 ### Concurrency & Multiprogramming
 1. Multithreading
