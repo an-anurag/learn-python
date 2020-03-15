@@ -347,6 +347,7 @@
         1. %d - int
         1. %f - float
         1. %s - String type
+        1. %r - 
         1. print with {} operator
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -902,7 +903,7 @@ An object is called iterable if we can get an iterator from it
         1. It tells Python how to search for inherited methods.
         1. depth first, left to right
         1. mro(), `__mro__`
-        1. c3 algorithm
+        1. c3 linearization algorithm
             1. start
             1. mro(X) = X + merge(mro(P1), mro(P2), parent list ie. P1P2)
             1. If head element of first list not present in the tail part of any other list then consider that element in the 
