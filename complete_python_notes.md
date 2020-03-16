@@ -522,6 +522,7 @@ An object is called iterable if we can get an iterator from it
 
 1. `__bases__`
 1. `__builtins__`
+1. `__call__`
 1. `__class__`
 1. `__closure__`
 1. `__dict__`
@@ -535,6 +536,7 @@ An object is called iterable if we can get an iterator from it
 1. `__new__`
 1. `__name__`
 1. `__package__`
+1. `__prepare__`
 1. `__slots__`
 1. `__subclasshook__`
 1. `__spec__`
@@ -809,10 +811,18 @@ An object is called iterable if we can get an iterator from it
 ### Classes and Objects
 1. class
 1. object
+    1. in Python, everything is an object. 
+    1. __new__, __init__
 1. Old style and new style classes
+    1. class != type -- old --upto P2.2
+    1. class == type -- new --P3
+        
 1. `self` Reference variable
 1. Constructor
+    1. __init__
 1. Variables
+    1. Access modifiers
+        1. public, protected, private
     1. Instance variables
         1. Operations
             1. Creation
@@ -865,13 +875,53 @@ An object is called iterable if we can get an iterator from it
 
 1. Inner classes:
 
+1. class decorator
+    1. implement __init__
+    1. implement __call__ 
+
 1. nested methods
 
 1. Meta classes
+    1. They allow customization of class instantiation.
+    1. Metaclasses are sometimes referred to as class factories.
+    1. When defining a class and no metaclass is defined the default type metaclass will be used
+    1. the type of any new-style class is type.
+    1. The type of the built-in classes you are familiar with is also type:
+    1. For that matter, the type of type is type as well (yes, really):
+    1. type is a metaclass, of which classes are instances
+    1. In the above case:
+        1. x is an instance of class Foo.
+        1. Foo is an instance of the type metaclass.
+        1. type is also an instance of the type metaclass, so it is an instance of itself.
+        
+    1. Creation
+        1. one
+            1. using separate class
+            1. implement __new__ with cls, name, base, dct
+            1. call super().__new__(cls, name, bases, dct)
+            1. add this newly created metaclass via `metaclass=` kwarg
+        1. two
+            1. Inheriting class that has already passed in `metaclass=` kwarg
+    1. singletons using meta
+        
+        
+1. Dynamic creation of classes
+    1. The built-in type() function, when passed one argument, returns the type of an object. For new-style classes
+    1. You can also call type() with three arguments—type(<name>, <bases>, <dct>):
+        1. <name> specifies the class name. This becomes the __name__ attribute of the class.
+        1. <bases> specifies a tuple of the base classes from which the class inherits. This becomes the __bases__ attribute of the class.
+        1. <dct> specifies a namespace dictionary containing definitions for the class body. This becomes the __dict__ attribute of the class.
+    1. Calling type() in this manner creates a new instance of the type metaclass. In other words, it dynamically creates a new class.
 
+        
 1. Garbage collection
+    1. module gc
 
 1. Destructors
+    1. Like Destructor is counter-part of a Constructor, function __del__ is the counter-part of function __new__. Because __new__ is the function which creates the object.
+    1. __del__ method is called for any object when the reference count for that object becomes zero.
+    1. As reference counting is performed, hence it is not necessary that for an object __del__ method will be called if it goes out of scope. The destructor method will only be called when the reference count becomes zero.
+    1. Exception in __init__ method
 
 ### Object Relationships (Passing members of one class to another class)
 
@@ -912,7 +962,7 @@ An object is called iterable if we can get an iterator from it
             1. else leave the first list as it is  and consider the next list and repeat
             1. end
             
-    1. super():
+    1. super(): calls parent of your child unlike any other language in which super calls to the parent
         1. call parent class constructor from child
         1. call parent class methods from child
         1. call parent class variables from child (non instance variables only)
@@ -933,6 +983,8 @@ An object is called iterable if we can get an iterator from it
             1. When multiple inheritance is used and a class inherits from several base classes, and at least one of those does not use super() in its own __init__ method.
         
     1. Difference between `type` and `isinstance`
+        1. type() simply returns the type of an object.
+        1. isinstance(): returns true if the object argument is an instance of the classinfo argument, or of a (direct, indirect or virtual) subclass thereof.
 
     
 ### Polymorphism
@@ -1091,7 +1143,14 @@ An object is called iterable if we can get an iterator from it
 4. AsyncIO
     1. `async` & `await`
     1. Async generator
-
+    
+---------------------------------------------------------------------------------------------------------------------
+### Design patterns
+   1. Creational Patterns:
+   1. Structural Patterns:
+   1. Behavioral Patterns:
+   1. Design for Testability Patterns:
+   1. Fundamental Patterns:
 ---------------------------------------------------------------------------------------------------------------------
 
 
