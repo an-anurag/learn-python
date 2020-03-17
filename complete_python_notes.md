@@ -66,7 +66,17 @@
         * `or`
         * `not`
         * Boolean types behaviour
+            1. and ==>If both arguments are True then only result is True
+            1. or ====>If atleast one arugemnt is True then result is True
+            1. not ==>complement
+            1. True and False ==>False
+            1. True or False ===>True
+            1. not False ==>True
         * Non boolean types behaviour
+            1. x and y:
+                1. if x is evaluates to false return x otherwise return y
+            1. x or y:
+                1. If x evaluates to True then result is x otherwise result is y
     5. **Bitwise oeprators**
         * `&`
         * `|`

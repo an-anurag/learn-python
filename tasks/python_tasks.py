@@ -28,4 +28,6 @@ PYTHON
 25. Run more than one generators simultaneously.
 26. Run shell commands from python
 27. Interact with Interactive shell from python
+28. Generate RSA key pair
+29. Check port is open or not
 """
