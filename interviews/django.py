@@ -6,4 +6,10 @@
 5. what is makemigrations and migrate command
 6. what is makemessages command
 7. how will you handle longer running processes in views
+8. Python design patterns used in django
+9. What is middleware
+10. How to write a middleware
+11. Manager in django
+12. optimize django queries
+13. raw sql ueries on model
 """
