@@ -11,5 +11,5 @@
 10. How to write a middleware
 11. Manager in django
 12. optimize django queries
-13. raw sql ueries on model
+13. raw sql queries on model
 """
