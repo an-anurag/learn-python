@@ -542,6 +542,7 @@ An object is called iterable if we can get an iterator from it
 1. `__init_subclass__`
 1. `__loader__`
 1. `__main__`
+1. `__metaclass__`
 1. `__module__`
 1. `__new__`
 1. `__name__`
@@ -1099,28 +1100,34 @@ An object is called iterable if we can get an iterator from it
         __reduce_ex__(self), __reduce_ex__, __reduce__`
 
 ### Abstraction
-1. Implementation hiding.
+1. What is abstraction
 1. Abstract classes
+    1. Abstract class vs Concrete class
 1. Abstract methods
-1. module `abc`
-1. Abstract Base Classes
-    1. Abstract base classes exist to be inherited, but never instantiated.
-    1. You can use leading underscores in your class name to tell that objects of that class should not be created.
-    1. abstractmethod
-    1. abstractstaticmethod -> depricated P3.3
-    1. abstrctclassmethod -> depricated P3.3
+    1. @abstractmethod
+    1. @abstractstaticmethod -> depricated P3.3
+    1. @abstrctclassmethod -> depricated P3.3
+1. python implementation
+    1. module `abc`
+    1. Abstract Base Classes
+        1. class ABC
+        1. Abstract base classes exist to be inherited, but never instantiated.
+        1. You can use leading underscores in your class name to tell that objects of that class should not be created.
+    1. Abstract property
 
 1. Interfaces
     1. Informal Interface
         1. Using Metaclasses
         1. Virtual base class
             1. virtual base classes don’t appear in the subclass MRO.
-    1. Formal interface
+    1. Formal Interfaces
         1. Using abc.ABCMeta
         1. Using .__subclasshook__()
         1. Using abc to Register a Virtual Subclass
-    
-    
+        1. Using Subclass Detection With Registration
+        1. Using Abstract Method Declaration
+1. Difference between Abstract class / Concrete class
+
 ### Encapsulation
 1. Information hiding
 1. We are all adults here
