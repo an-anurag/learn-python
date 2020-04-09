@@ -706,6 +706,7 @@ An object is called iterable if we can get an iterator from it
                * BytesWarning
                * ResourceWarning
 
+1. Creating custom exceptions
 ---------------------------------------------------------------------------------------------------------------------
 
 ## Modular Python
@@ -891,6 +892,8 @@ An object is called iterable if we can get an iterator from it
     1. implement __call__ 
 
 1. nested methods
+
+1. slots
 
 1. Meta classes
     1. They allow customization of class instantiation.
@@ -1160,7 +1163,8 @@ An object is called iterable if we can get an iterator from it
 4. AsyncIO
     1. `async` & `await`
     1. Async generator
-    
+
+### Testing
 ---------------------------------------------------------------------------------------------------------------------
 ### Design patterns
    1. Creational Patterns:
@@ -1169,7 +1173,6 @@ An object is called iterable if we can get an iterator from it
    1. Design for Testability Patterns:
    1. Fundamental Patterns:
 ---------------------------------------------------------------------------------------------------------------------
-
 
 ### Packages
 1. Builtin packages
