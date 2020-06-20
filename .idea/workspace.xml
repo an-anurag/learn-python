@@ -1,15 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3dd630-4d84-4c21-8040-ca148ba8bb94" name="Default Changelist" comment="daily updated">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python-utils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programs/tasks/python_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/tasks/python_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code_snippets/daemonize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/love-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/complete_python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/arrays/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/concurrent_programming/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/arrays/programs/array_reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/arrays/programs/transpose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/concurrent_programming/asynchronious_python/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/addition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/celsius_to_fahrenheit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/circle_area.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/compound_interest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/hello_world.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/km_to_mile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/quadratic_equation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/simple_interest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/square_root.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/swap_variables.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/basics/triangle_area.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/concurrent_programming/multi_threading/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/eight.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/fifteen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/programs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/database_programming/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/programs/questions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/ten.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/files/twenty-two.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerearth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/10_fuctions_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/10_find-second-maximum-number-in-a-list-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/1_py-hello-world-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/2_py-if-else-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/3_python-arithmetic-operators-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/4_python-division-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/5_python-loops-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/6_write-a-function-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/7_python-print-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/8_list-comprehensions-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/hackerrank/problems/9_swap-case-English.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/list/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/2_identifiers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/list/reversing_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/matrix/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/3_keywords/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/matrix/addition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/matrix/transpose.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/4_data_types/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/aascii_value.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/armstrong_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/armstrong_number_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/even_odd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/factorial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/factors_of_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/fibnonacci_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/largest_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/leap_year.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/multiplication_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/natural_numbers_sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/positive_negative.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/prime_number_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/prime_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/print_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/numbers/random_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/regex/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/5_operators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/regex/questions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/string/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/string/number_of_vowel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/string/palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/string/remove_punctuation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/string/sort_words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/string/swap_case.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/__root__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/__root__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/concurrent_programming/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/regex/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/concurrent_programming/asynchronious_python/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/subprocess/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/concurrent_programming/asynchronious_python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/concurrent_programming/asynchronious_python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/concurrent_programming/multi_threading/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/concurrent_programming/multi_threading/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/concurrent_programming/multi_threading/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/csv_creater.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/csv_creater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/database_programming/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/database_programming/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/database_programming/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/database_programming/testDB.db" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/database_programming/testDB.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/10_fuctions_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/10_fuctions_demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/10_fuctions_demo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/metapragramming/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/applications.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/applications.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/getting_started.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/getting_started.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/indentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/indentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/introduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/limitations.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/limitations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/1_Introduction/why_to_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/1_Introduction/why_to_learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/2_identifiers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/modular_python/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/2_identifiers/identifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/2_identifiers/identifiers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/3_keywords/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/modular_python/regex/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/3_keywords/keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/3_keywords/keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/4_data_types/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/4_data_types/integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/4_data_types/integers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/4_data_types/intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/4_data_types/intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/5_operators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/abstraction/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/5_operators/operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/5_operators/operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/classess/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/doc_service_logs.logs" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/doc_service_logs.logs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/make_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/make_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/read_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/read_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/read_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/read_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/remove_pattern_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/remove_pattern_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/6_files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/6_files/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/composition/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/collections_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/collections_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/os_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/os_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/regex/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/encapsulation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/regex/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/regex/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/regex/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/regex/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/subprocess/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/inheritance/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/subprocess/check_running.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/subprocess/check_running.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/polymorphism/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/com_line_args.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/com_line_args.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/displayhook.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/displayhook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/other.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/other.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/redirections.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/redirections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/streams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/8_std_library/sys_module/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/8_std_library/sys_module/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/cache_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/cache_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/edit_existing_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/edit_existing_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/paramik.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/paramik.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/rep_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/rep_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/sqlalchem.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/sqlalchem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/9_third_party_modules/update_reputation.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/9_third_party_modules/update_reputation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/functional_python/iterator_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/functional_python/iterator_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/get-pip.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/get-pip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/metapragramming/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/modular_python/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/modular_python/regex/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/msexchange.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/msexchange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/abstraction/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/abstraction/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/abstraction/interfaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/classess/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/classess/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/classess/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/classess/inner.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/classess/inner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/composition/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/composition/composition.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/composition/composition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/encapsulation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/encapsulation/getter_setter.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/encapsulation/getter_setter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/encapsulation/property.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/encapsulation/property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/inheritance/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/inheritance/mro.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/inheritance/mro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/inheritance/superr.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/inheritance/superr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/polymorphism/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/object_oriented_python/polymorphism/magic_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/object_oriented_python/polymorphism/magic_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/python_tasks_soln.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/python_tasks_soln.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/files/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/files/students.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/files/tc_format.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/files/tc_format.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/fonts/Aparajita.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/fonts/Aparajita.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/fonts/Lohit-Marathi.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/fonts/Lohit-Marathi.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/notes/durgasoft python.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/notes/durgasoft python.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/notes/interview_questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/notes/interview_questions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/resource/notes/magicmethods.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/resource/notes/magicmethods.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/syslog_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/syslog_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/thread_safe_iter.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_snippets/thread_safe_iter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +213,13 @@
   <component name="ProjectId" id="1VOCYm8IndkKbpUeAIzoB0DcSyJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../official/log-generators" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +236,7 @@
   </component>
   <component name="RunManager" selected="Python.python_tasks_soln">
     <configuration name="python_tasks_soln" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-utils" />
+      <module name="love-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,7 +258,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-utils" />
+      <module name="love-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -102,18 +285,6 @@
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -206,6 +377,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates" />
     <MESSAGE value="notes updated" />
@@ -215,49 +398,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="daily updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="416" y="126" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579789851411">
-      <screen x="0" y="27" width="1366" height="700" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1590182485382">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="416" y="126" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.700@0.27.1366.700" timestamp="1579789851411" />
-    <state x="34" y="27" width="1287" height="700" key="CommitChangelistDialog2" timestamp="1580453909164">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state x="34" y="27" width="1287" height="700" key="CommitChangelistDialog2/0.27.1366.700@0.27.1366.700" timestamp="1580453909164" />
-    <state x="460" y="124" width="424" height="520" key="FileChooserDialogImpl" timestamp="1580475084953">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state x="460" y="124" width="424" height="520" key="FileChooserDialogImpl/0.27.1366.700@0.27.1366.700" timestamp="1580475084953" />
-    <state width="432" height="540" key="GridCell.Tab.0.bottom" timestamp="1579790009729">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state width="432" height="540" key="GridCell.Tab.0.bottom/0.27.1366.700@0.27.1366.700" timestamp="1579790009729" />
-    <state width="432" height="540" key="GridCell.Tab.0.center" timestamp="1579790009729">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state width="432" height="540" key="GridCell.Tab.0.center/0.27.1366.700@0.27.1366.700" timestamp="1579790009729" />
-    <state width="432" height="540" key="GridCell.Tab.0.left" timestamp="1579790009729">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state width="432" height="540" key="GridCell.Tab.0.left/0.27.1366.700@0.27.1366.700" timestamp="1579790009729" />
-    <state width="432" height="540" key="GridCell.Tab.0.right" timestamp="1579790009729">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state width="432" height="540" key="GridCell.Tab.0.right/0.27.1366.700@0.27.1366.700" timestamp="1579790009729" />
-    <state x="172" y="27" width="1012" height="700" key="SettingsEditor" timestamp="1579098495907">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state x="172" y="27" width="1012" height="700" key="SettingsEditor/0.27.1366.700@0.27.1366.700" timestamp="1579098495907" />
-    <state x="278" y="113" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1580139155966">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state x="278" y="113" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.700@0.27.1366.700" timestamp="1580139155966" />
-    <state x="451" y="297" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580453650262">
-      <screen x="0" y="27" width="1366" height="700" />
-    </state>
-    <state x="451" y="297" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.700@0.27.1366.700" timestamp="1580453650262" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_utils$test.coverage" NAME="test Coverage Results" MODIFIED="1579098523655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_utils$python_tasks_soln.coverage" NAME="python_tasks_soln Coverage Results" MODIFIED="1579769978656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/programs/tasks" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590182485382" />
   </component>
 </project>
