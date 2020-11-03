@@ -17,4 +17,10 @@
 16. Difference between generators and iterators
 17. What is the diff between == and is
 18. Concurrent Programming - Multithreading, Multiprocessing, AsyncIO
+19. What is context managers
+20. What is self in python
+21. What is classmethod
+22. What is staticmethod
+23. What is instance method
+24. How multiple inheritance implemented in python
 """
