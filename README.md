@@ -898,7 +898,7 @@ An object is called iterable if we can get an iterator from it
 1. Meta classes
     1. They allow customization of class instantiation.
     1. Metaclasses are sometimes referred to as class factories.
-    1. When defining a class and no metaclass is defined the default type metaclass will be used
+    1. When defining a class and no metaclass is defined the default `type` metaclass will be used
     1. the type of any new-style class is type.
     1. The type of the built-in classes you are familiar with is also type:
     1. For that matter, the type of type is type as well (yes, really):
