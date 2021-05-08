@@ -1,3 +1,6 @@
+DAILY
+-------------------------------------------
+
 1. Monitoring infrastructure with Nagios
 2. Database backup and restore
 3. Taking backup of servers.
@@ -16,3 +19,23 @@
   Taking firewall backup.
 9. Network troubleshooting
 10. Server configuration according to requirements
+
+CLOUD
+--------------------------------------------------
+1. Schedule backup of Instances or its volumes as per requirement.
+2. User creation and managing their permission using IAM service.
+3. Launch EC2 instance according to required.
+4. Modify the resources of instances like CPU, RAM or Disk as per user requirement. 
+5. Adding or removing instance from ELB (Elastic load balancer). depending on requirement.
+6. DNS mapping if you are using Route 53
+7. Setting cloudwatch monitoring.
+8. On call – Provide 24×7 support to our client for AWS infrastructure.
+9. Managing storage space like S3, Glacier, EBS etc. 
+
+ONE TIME
+----------------------------------------------------------
+1. Architecture designing like create VPC and it regarding parameter such as security group, Internet Gateway, Route table.
+2. Doing automation like auto scaling, lambda function
+3. Bucket creation and managing their permission
+4. To mange billing and cost optimization.
+5. To configure replica or clustering according to need.
