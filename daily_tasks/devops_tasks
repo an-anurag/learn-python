@@ -1,0 +1,18 @@
+1. Monitoring infrastructure with Nagios
+2. Database backup and restore
+3. Taking backup of servers.
+4. Taking code backups
+5. Taking log backups
+6. Installation of neccessory apps on new machine
+7. Code deployment on servers.
+8. Firewall task- for enterprise firewall
+  creating new user, 
+  password set reset, 
+  creating policy, 
+  creating group, 
+  assign user in required group, 
+  managing tunnel, 
+  block unauthorized website 
+  Taking firewall backup.
+9. Network troubleshooting
+10. Server configuration according to requirements
