@@ -13,4 +13,5 @@ UBUNTU
 10. Mount the partition at boot (fstab)
 11. Configure allow/deny traffic firewall (ufw)
 12. Write shell script for common automation
+13. SSH to remote servers.
 """
