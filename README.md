@@ -394,6 +394,8 @@ An object is called iterable if we can get an iterator from it
 3. Internal working of for loop
 4. Building your own iterator
 4. Infinite Iterators
+5. Iterators terminating on the shortest input sequence
+6. Combinatoric Generators 
 
 ---------------------------------------------------------------------------------------------------------------------
 
