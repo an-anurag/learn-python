@@ -23,4 +23,5 @@
 22. What is staticmethod
 23. What is instance method
 24. How multiple inheritance implemented in python
+25. What is descriptors in python
 """
