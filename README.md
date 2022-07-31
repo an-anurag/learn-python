@@ -499,7 +499,20 @@ An object is called iterable if we can get an iterator from it
         3. keyword args
         4. `**args`
         5. `**kwargs`
-    5. Nested functions
+    5. function aliasing
+    6. Function as a argument
+        1. calling passed function
+        2. returning passed function call
+        3. returning passed function reference
+    7. main function
+    8. generators
+        1. Using functions
+        2. Using generator expressions
+        3. yield from
+        4. `send()`
+    9. Recursive functions
+    10. Lambda function
+    11. Nested functions
         1. defining nested function
         2. calling nested function
         3. returning nested functions which is not returning value
@@ -509,24 +522,13 @@ An object is called iterable if we can get an iterator from it
         5. function closure
         6. use of `global` keyword
         7. use of `nonlocal` keyword
-    6. function aliasing
-    7. Function as a argument
-        1. calling passed function
-        2. returning passed function call
-        3. returning passed function reference
-    7. generators
-        1. Using functions
-        2. Using generator expressions
-        3. yield from
-        4. `send()`
-    8. function decorators
+    12. function decorators
         1. without function args
         2. with function args
         3. with decorator args
         4. with @wrap
         5. decorator chaining
-    9. Recursive functions
-    10. Lambda function
+
 
 ---------------------------------------------------------------------------------------------------------------------
 
