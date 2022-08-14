@@ -689,25 +689,18 @@ An object is called iterable if we can get an iterator from it
    
     
 1. Multiple except clause
-1.	Multiple exception in single except clause
-1.	Try … else clause
-1.	Try … Finally, clause
-1.	Creating custom exceptions
-1.	Customizing custom exceptions -- OOP
+1. Multiple exception in single except clause
+1. Try … else clause
+1. Try … Finally, clause
+1. Creating custom exceptions
+1. Customizing custom exceptions -- OOP
 
 1. Creating custom exceptions
 ---------------------------------------------------------------------------------------------------------------------
 
 ## Modular Python
-    
-    ### Command line arguments
-1. Modules:
-    1. sys
-    1. argparse
-    1. getopt
-    1. optparse
-
 ---------------------------------------------------------------------------------------------------------------------
+    
 1. Builtin modules
 2. User defined modules
 3. Imports
@@ -718,101 +711,186 @@ An object is called iterable if we can get an iterator from it
 6. Reloading a module
 7. Finding members of module using dir()
 4. `if __name__ == '__main__'`
-               
+    
 ---------------------------------------------------------------------------------------------------------------------
 
-### Regular expression
-
-1. Metacharacters:
-
-    1. `\`	escape special characters
-    1. `.`	matches any character
-    1. `^`	matches beginning of string
-    1. `$`	matches end of string
-    1. `[5b-d]`	matches any chars '5', 'b', 'c' or 'd'
-    1. `[^a-c6]`	matches any char except 'a', 'b', 'c' or '6'
-    1. `R|S`	matches either regex R or regex S
-    1. `()`	creates a capture group and indicates precedence
-    
-1. Quantifiers    
-    1. `*`  0 or more (append ? for non-greedy)
-    1. `+`	1 or more (append ? for non-greedy)
-    1. `?`	0 or 1 (append ? for non-greedy)
-    1. `{m}`	exactly mm occurrences
-    1. `{m, n}`	from m to n. m defaults to 0, n to infinity
-    1. `{m, n}?`	from m to n, as few as possible
-    
-1. Special sequences    
-    1. `\A`	start of string
-    1. `\b`	matches empty string at word boundary (between \w and \W)
-    1. `\B`	matches empty string not at word boundary
-    1. `\d`	digit
-    1. `\D`	non-digit
-    1. `\s`	whitespace: `[ \t\n\r\f\v]`
-    1. `\S`	non-whitespace
-    1. `\w`	alphanumeric: `[0-9a-zA-Z_]`
-    1. `\W`	non-alphanumeric
-    1. `\Z`	end of string
-    1. `\g<id>`	matches a previously defined group
-    1. `(?iLmsux)`	matches empty string, sets re.X flags
-    1. `(?:...)`	non-capturing version of regular parentheses
-    1. `(?P...)`	matches whatever matched previously named group
-    1. `(?P=)`	digit
-    1. `(?#...)`	a comment; ignored
-    1. `(?=...)`	lookahead assertion: matches without consuming
-    1. `(?!...)`	negative lookahead assertion
-    1. `(?<=...)`	lookbehind assertion: matches if preceded
-    1. `(?<!...)`	negative lookbehind assertion
-    1. `(?(id)yes|no)`	match 'yes' if group 'id' matched, else 'no'
-    
-1. Method:
-    1. `match()` Returns match object on successful search
-    1. `findall()`	Returns a list containing all matches
-    1. `search()`	Returns a Match object if there is a match anywhere in the string
-    1. `split()`	Returns a list where the string has been split at each match
-    1. `sub()`	Replaces one or many matches with a string
-    1. `subn()` The re.subn() is similar to re.sub() except it returns a tuple of 2 items containing the new string and the number of substitutions made.
-
-1. Flags:
-
-    1. [re.M]	Make begin/end consider each line
-    1. [re.I]	It ignores case
-    1. [re.S]	Make [ . ]
-    1. [re.U]	Make { \w,\W,\b,\B} follows Unicode rules
-    1. [re.L]	Make {\w,\W,\b,\B} follow locale
-    1. [re.X]	Allow comment in Regex
+### Packages
+1. Builtin packages
+2. User defined packages
+3. Use of `__init__`
 
 ---------------------------------------------------------------------------------------------------------------------
-### Date and time
-
-1. Modules
-    1. `time`
-    1. `datetime`
     
-1. Methods
+### Some important builtin modules
+
+1. String
+1.	Os
+1.	Sys
+1.	Random
+1.	Multithreading
+1.	Multiprocessing
+1.	Logging
+1.	Json
+1.	Configparser
+1.	Datetime
+1.	Time
+1.	Subprocess
+1.	Csv
+1.	Email
+1.	Smtp
+1.	http
+1.	Itertools
+1.	functools
+1.	Collections
+1.	Request, 
+1.	Paramiko, 
+1.	pyyaml
+1. re
+
+    1. Metacharacters:
+
+        1. `\`	escape special characters
+        1. `.`	matches any character
+        1. `^`	matches beginning of string
+        1. `$`	matches end of string
+        1. `[5b-d]`	matches any chars '5', 'b', 'c' or 'd'
+        1. `[^a-c6]`	matches any char except 'a', 'b', 'c' or '6'
+        1. `R|S`	matches either regex R or regex S
+        1. `()`	creates a capture group and indicates precedence
+
+    1. Quantifiers    
+        1. `*`  0 or more (append ? for non-greedy)
+        1. `+`	1 or more (append ? for non-greedy)
+        1. `?`	0 or 1 (append ? for non-greedy)
+        1. `{m}`	exactly mm occurrences
+        1. `{m, n}`	from m to n. m defaults to 0, n to infinity
+        1. `{m, n}?`	from m to n, as few as possible
+
+    1. Special sequences    
+        1. `\A`	start of string
+        1. `\b`	matches empty string at word boundary (between \w and \W)
+        1. `\B`	matches empty string not at word boundary
+        1. `\d`	digit
+        1. `\D`	non-digit
+        1. `\s`	whitespace: `[ \t\n\r\f\v]`
+        1. `\S`	non-whitespace
+        1. `\w`	alphanumeric: `[0-9a-zA-Z_]`
+        1. `\W`	non-alphanumeric
+        1. `\Z`	end of string
+        1. `\g<id>`	matches a previously defined group
+        1. `(?iLmsux)`	matches empty string, sets re.X flags
+        1. `(?:...)`	non-capturing version of regular parentheses
+        1. `(?P...)`	matches whatever matched previously named group
+        1. `(?P=)`	digit
+        1. `(?#...)`	a comment; ignored
+        1. `(?=...)`	lookahead assertion: matches without consuming
+        1. `(?!...)`	negative lookahead assertion
+        1. `(?<=...)`	lookbehind assertion: matches if preceded
+        1. `(?<!...)`	negative lookbehind assertion
+        1. `(?(id)yes|no)`	match 'yes' if group 'id' matched, else 'no'
+
+    1. Method:
+        1. `match()` Returns match object on successful search
+        1. `findall()`	Returns a list containing all matches
+        1. `search()`	Returns a Match object if there is a match anywhere in the string
+        1. `split()`	Returns a list where the string has been split at each match
+        1. `sub()`	Replaces one or many matches with a string
+        1. `subn()` The re.subn() is similar to re.sub() except it returns a tuple of 2 items containing the new string and the number of substitutions made.
+
+    1. Flags:
+
+        1. [re.M]	Make begin/end consider each line
+        1. [re.I]	It ignores case
+        1. [re.S]	Make [ . ]
+        1. [re.U]	Make { \w,\W,\b,\B} follows Unicode rules
+        1. [re.L]	Make {\w,\W,\b,\B} follow locale
+        1. [re.X]	Allow comment in Regex
+
+
+1. sqlite
+
+    1. DB-API
+    1. Modules
+    1. Connections
+    1. Cursors
+    1. Connection strings
+    1. Exceptions
+    1. Methods
+        1. connect()
+        1. execute()
+        1. executemany()
+        1. fetch()
+        1. fetchone()
+        1. fetchall()
+        1. close()    
+
 
 ---------------------------------------------------------------------------------------------------------------------
-### Collections
+### Python project setup
+* Code tags
+* PEP standards
+    
+---------------------------------------------------------------------------------------------------------------------
 
-1. Name
+### Package management
+* What is PIP
+* easy_install
+* Managing packages
+* Packaging python apps
+* Distributing python apps
+* Publishing python apps
 
 ---------------------------------------------------------------------------------------------------------------------
-### Database Programming
-
-1. DB-API
-1. Modules
-1. Connections
-1. Cursors
-1. Connection strings
-1. Exceptions
-1. Methods
-    1. connect()
-    1. execute()
-    1. executemany()
-    1. fetch()
-    1. fetchone()
-    1. fetchall()
-    1. close()    
+  
+### Environments
+* Whats is envs
+* Creating envs
+    * Using Pipenv
+    * Using virtualenv
+* activating and deactivating envs
+* Installing packages in envs
+* environment variables
+    1. PYTHONSTARTUP: 
+        - file executed on interactive startup (no default)
+        
+    1. PYTHONPATH: 
+        - ':'-separated list of directories prefixed to the default module search path.  The result is sys.path.
+        
+    1. PYTHONHOME: 
+        - alternate <prefix> directory (or <prefix>:<exec_prefix>).
+          The default module search path uses <prefix>/lib/pythonX.X.
+          
+    1. PYTHONCASEOK: 
+        - ignore case in 'import' statements (Windows).
+        
+    1. PYTHONIOENCODING: 
+        - Encoding[:errors] used for stdin/stdout/stderr.
+        
+    1. PYTHONFAULTHANDLER: 
+        - dump the Python traceback on fatal errors.
+        
+    1. PYTHONHASHSEED: 
+        - if this variable is set to 'random', a random value is used
+       to seed the hashes of str, bytes and datetime objects.  It can also be
+       set to an integer in the range [0,4294967295] to get hash values with a
+       predictable seed.
+       
+    1. PYTHONMALLOC: 
+        - set the Python memory allocators and/or install debug hooks
+       on Python memory allocators. Use PYTHONMALLOC=debug to install debug
+       hooks.
+       
+    1. PYTHONCOERCECLOCALE: 
+        - if this variable is set to 0, it disables the locale
+       coercion behavior. Use PYTHONCOERCECLOCALE=warn to request display of
+       locale coercion and locale compatibility warnings on stderr.
+       
+    1. PYTHONBREAKPOINT: 
+        - if this variable is set to 0, it disables the default
+       debugger. It can be set to the callable of your debugger of choice.
+       
+    1. PYTHONDEVMODE: 
+        - enable the development mode.
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -1170,79 +1248,4 @@ An object is called iterable if we can get an iterator from it
    1. Behavioral Patterns:
    1. Design for Testability Patterns:
    1. Fundamental Patterns:
----------------------------------------------------------------------------------------------------------------------
 
-### Packages
-1. Builtin packages
-2. User defined packages
-3. Use of `__init__`
-
----------------------------------------------------------------------------------------------------------------------
-
-### Environments
-* Whats is envs
-* Creating envs
-    * Using Pipenv
-    * Using virtualenv
-* activating and deactivating envs
-* Installing packages in envs
-* environment variables
-    1. PYTHONSTARTUP: 
-        - file executed on interactive startup (no default)
-        
-    1. PYTHONPATH: 
-        - ':'-separated list of directories prefixed to the default module search path.  The result is sys.path.
-        
-    1. PYTHONHOME: 
-        - alternate <prefix> directory (or <prefix>:<exec_prefix>).
-          The default module search path uses <prefix>/lib/pythonX.X.
-          
-    1. PYTHONCASEOK: 
-        - ignore case in 'import' statements (Windows).
-        
-    1. PYTHONIOENCODING: 
-        - Encoding[:errors] used for stdin/stdout/stderr.
-        
-    1. PYTHONFAULTHANDLER: 
-        - dump the Python traceback on fatal errors.
-        
-    1. PYTHONHASHSEED: 
-        - if this variable is set to 'random', a random value is used
-       to seed the hashes of str, bytes and datetime objects.  It can also be
-       set to an integer in the range [0,4294967295] to get hash values with a
-       predictable seed.
-       
-    1. PYTHONMALLOC: 
-        - set the Python memory allocators and/or install debug hooks
-       on Python memory allocators. Use PYTHONMALLOC=debug to install debug
-       hooks.
-       
-    1. PYTHONCOERCECLOCALE: 
-        - if this variable is set to 0, it disables the locale
-       coercion behavior. Use PYTHONCOERCECLOCALE=warn to request display of
-       locale coercion and locale compatibility warnings on stderr.
-       
-    1. PYTHONBREAKPOINT: 
-        - if this variable is set to 0, it disables the default
-       debugger. It can be set to the callable of your debugger of choice.
-       
-    1. PYTHONDEVMODE: 
-        - enable the development mode.
-
----------------------------------------------------------------------------------------------------------------------
-
-### Python project setup
-* Code tags
-* PEP standards
-
----------------------------------------------------------------------------------------------------------------------
-
-### Package management
-* What is PIP
-* easy_install
-* Managing packages
-* Packaging python apps
-* Distributing python apps
-* Publishing python apps
-
----------------------------------------------------------------------------------------------------------------------
