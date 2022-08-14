@@ -1,21 +1,21 @@
 ## Functional Python
 ### Introduction
-* History
-* Features
-* Limitations
-* Versions
-* Installation
-* Running python program
+*	Origin of Python
+*	Features
+*	Limitations
+*	Versions
+*	Applications
+*	Hello World
+*	Interactive mode and script mode
+*	Interpreter vs compilers
+
 
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Basics
+
+* **Modules**
 * **Statements**
-
-* **Keywords (35)**
-    1. Difference between `del` and `None`:
-    1. `async` and `await` - python 3.7
-
 * **Character set**
     1. A-Z
     1. a-z
@@ -26,21 +26,29 @@
         1. To give special meanings and functions to name of vartiables or functions.
         1. To use as ‘Internationalization(i18n)’ or ‘Localization(l10n)’ functions.
         1. To separate the digits of number literal value.
-* **Identifiers**
-* **Literals**
-    1. Int literals
-    1. String literals
+
 * **Variables**
+* **Underscore
 * **Constants**
 * **comments**
     1. single line
     1. multiline
-* **Interactive shell**
-* **Indentation**
+* **Code blocks and Indentation**
+* **Comments**
 
 ---------------------------------------------------------------------------------------------------------------------
 
-### Operators
+### Tokens
+
+* **Keywords (35)**
+    1. Difference between `del` and `None`:
+    1. `async` and `await` - python 3.7
+* **Identifiers**
+* **Literals**
+    1. Int literals
+    1. String literals
+* **Punctuators**
+* **Operators**
 * Types:
     1. **Arithmetic Operators**
         1. `+` ==>Addition
@@ -109,25 +117,25 @@
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Data types
-* **Fundamental types**
-    1. int
-    1. float
-    1. complex
-    1. bool
-    1. str
 
-1. **int**
+•	Type checking
+•	Integer Types: int, float, complex
+
+    1. **int**
     1. Literals
         1. Binary
         1. Octals
         1. Hexadecimals
 
-2. **float**
+    1.  **float**
 
-3. **complex**
-
-4. **bool**
-
+    1. **complex**
+    
+•	None Type
+•	Boolean Type
+•	Sequence Types: string, list, tuple, range
+    
+    
 5. **str**
     1. literals
         1. single line
@@ -204,13 +212,8 @@
         * translate()	Returns a translated string
         * upper()	Converts a string into upper case
         * zfill()	Fills the string with a specified number of 0 values at the beginning
-6. **bytes**
-
-7. **bytearray**
-
-8. **range**
-
-9. **list**
+        
+        9. **list**
     1. defining list
         1. list = []
         2. list=[10,20,30,40]
@@ -268,6 +271,21 @@
     1. Methods
         * count()	Returns the number of times a specified value occurs in a tuple
         * index()	Searches the tuple for a specified value and returns the position of where it was found
+    
+•	Set Sequence Types: set, frozenset
+•	Byte Sequence Types: byte, bytearray
+•	Map Type: dictionary
+•	User defined types
+
+
+
+6. **bytes**
+
+7. **bytearray**
+
+8. **range**
+
+
 
 11. **set**
     1. Defining set
