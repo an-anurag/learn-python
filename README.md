@@ -119,20 +119,21 @@
 ### Data types
 
 •	Type checking
-•	**Integer Types: int, float, complex**
-1. **int**
-1. Literals
-    1. Binary
-    1. Octals
-    1. Hexadecimals
 
-1.  **float**
-
-1. **complex**
+•	**Integer Types**
+    1. **int**
+    1. Literals
+        1. Binary
+        1. Octals
+        1. Hexadecimals
+    1.  **float**
+    1. **complex**
     
 •	None Type
+
 •	Boolean Type
-•	Sequence Types: string, list, tuple, range
+
+• **Sequence Types**
 
 1. **str**
     1. literals
@@ -143,14 +144,12 @@
         1. Accessing
         1. Indexing
         1. Slicing
-
     1. Operators for string
         1. `+` operator for concatenation
         2. `*` operator for repetition
         3. <,<=,>,>= Comparison
         4. ==,!= equality
         5. in , not in membership
-
     1. Formatting
             1. Formatted string
             1. %i - int
@@ -218,7 +217,8 @@
         * upper()	Converts a string into upper case
         * zfill()	Fills the string with a specified number of 0 values at the beginning
         
-  1. **list**
+ 1. **list**
+    
     1. defining list
         1. list = []
         2. list=[10,20,30,40]
@@ -255,95 +255,101 @@
         * reverse()	Reverses the order of the list
         * sort()	Sorts the list
 
-   1. **tuple**
-        1. Defining tuple
-            1. t=()
-            2. t=(10,)
-            3. t=10,20,30
-            4. tuple()
-        1. Operations
-            1. Indexing
-            1. Slicing
-            1. Traversing
-                using for loop
-        1. Tuple vs immutability:
-        1. Operators for tuple
-            1. Concatenation operator(+):
-            2. Repetition Operator(*):
-            3. in , not in Membership
-        1. Tuple Packing and Unpacking:
-        1. Tuple comprehension
-        1. Methods
-            * count()	Returns the number of times a specified value occurs in a tuple
-            * index()	Searches the tuple for a specified value and returns the position of where it was found
-            
+ 1. **tuple**
+    
+    1. Defining tuple
+        1. t=()
+        2. t=(10,)
+        3. t=10,20,30
+        4. tuple()
+    1. Operations
+        1. Indexing
+        1. Slicing
+        1. Traversing
+            using for loop
+    1. Tuple vs immutability:
+    1. Operators for tuple
+        1. Concatenation operator(+):
+        2. Repetition Operator(*):
+        3. in , not in Membership
+    1. Tuple Packing and Unpacking:
+    1. Tuple comprehension
+    1. Methods
+        * count()	Returns the number of times a specified value occurs in a tuple
+        * index()	Searches the tuple for a specified value and returns the position of where it was found
+
    1. **range**
     
-•	**Set Sequence Types: set, frozenset**
-    1. **set**
-        1. Defining set
-            1. using set()
-        1. Set vs immutability:
-        1. Operations:
-            1. Union
-            1. Intersection
-            1. Difference
-            1. Symmetric difference
-        1. Operators for set
-            1. Membership operators: (in , not in)
-        1. Set comprehension
-        1. Methods
-            * add()	Adds an element to the set
-            * clear()	Removes all the elements from the set
-            * copy()	Returns a copy of the set
-            * difference()	Returns a set containing the difference between two or more sets
-            * difference_update()	Removes the items in this set that are also included in another, specified set
-            * discard()	Remove the specified item
-            * intersection()	Returns a set, that is the intersection of two other sets
-            * intersection_update()	Removes the items in this set that are not present in other, specified set(s)
-            * isdisjoint()	Returns whether two sets have a intersection or not
-            * issubset()	Returns whether another set contains this set or not
-            * issuperset()	Returns whether this set contains another set or not
-            * pop()	Removes an element from the set
-            * remove()	Removes the specified element
-            * symmetric_difference()	Returns a set with the symmetric differences of two sets
-            * symmetric_difference_update()	inserts the symmetric differences from this set and another
-            * union()	Return a set containing the union of sets
-            * update()	Update the set with the union of this set and others
+• **Set Sequence Types**
+   
+1. **set**
+    
+    1. Defining set
+        1. using set()
+    1. Set vs immutability:
+    1. Operations:
+        1. Union
+        1. Intersection
+        1. Difference
+        1. Symmetric difference
+    1. Operators for set
+        1. Membership operators: (in , not in)
+    1. Set comprehension
+    1. Methods
+        * add()	Adds an element to the set
+        * clear()	Removes all the elements from the set
+        * copy()	Returns a copy of the set
+        * difference()	Returns a set containing the difference between two or more sets
+        * difference_update()	Removes the items in this set that are also included in another, specified set
+        * discard()	Remove the specified item
+        * intersection()	Returns a set, that is the intersection of two other sets
+        * intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+        * isdisjoint()	Returns whether two sets have a intersection or not
+        * issubset()	Returns whether another set contains this set or not
+        * issuperset()	Returns whether this set contains another set or not
+        * pop()	Removes an element from the set
+        * remove()	Removes the specified element
+        * symmetric_difference()	Returns a set with the symmetric differences of two sets
+        * symmetric_difference_update()	inserts the symmetric differences from this set and another
+        * union()	Return a set containing the union of sets
+        * update()	Update the set with the union of this set and others
 
-    1. **frozenset**
+1. **frozenset**
 
-•	**Byte Sequence Types: byte, bytearray**
-    6. **bytes**
-    7. **bytearray**
+•	**Byte Sequence Types**
+    
+6. **bytes**
+    
+7. **bytearray**
     
 •	**Map Type: dictionary**
-    1. **dict**
-        1. Defining dicts
-            1. d = {}
-            2. d = dict()
-        1. Operations
-            1. Accessing
-            1. Updating dicts
-            1. deleting elements
-        1. dict comprehensions
-        1. Methods
-            * clear()	Removes all the elements from the dictionary
-            * copy()	Returns a copy of the dictionary
-            * fromkeys()	Returns a dictionary with the specified keys and values
-            * get()	Returns the value of the specified key
-            * items()	Returns a list containing a tuple for each key value pair
-            * keys()	Returns a list containing the dictionary's keys
-            * pop()	Removes the element with the specified key
-            * popitem()	Removes the last inserted key-value pair
-            * setdefault()	Returns the value of the specified key. If the key does not exist:
-                            insert the key, with the specified value
-            * update()	Updates the dictionary with the specified key-value pairs
-            * values()	Returns a list of all the values in the dictionary
-        
+1. **dict**
+    
+    1. Defining dicts
+        1. d = {}
+        2. d = dict()
+    1. Operations
+        1. Accessing
+        1. Updating dicts
+        1. deleting elements
+    1. dict comprehensions
+    1. Methods
+        1. clear()	Removes all the elements from the dictionary
+        1. copy()	Returns a copy of the dictionary
+        1. fromkeys()	Returns a dictionary with the specified keys and values
+        1. get()	Returns the value of the specified key
+        1. items()	Returns a list containing a tuple for each key value pair
+        1. keys()	Returns a list containing the dictionary's keys
+        1. pop()	Removes the element with the specified key
+        1. popitem()	Removes the last inserted key-value pair
+        1. setdefault()	Returns the value of the specified key. If the key does not exist:
+                        insert the key, with the specified value
+        1. update()	Updates the dictionary with the specified key-value pairs
+        1. values()	Returns a list of all the values in the dictionary
+
 •	User defined types
-    class
-    writing classes
+1. class
+1. writing classes
  
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -354,19 +360,19 @@
 •	Explicit type conversion
 •	Type casting functions
 
-    1. int()
-    1. float()
-    1. complex()
-    1. bool()
-    1. str()
-    1. list()
-    1. tuple()
-    1. ord()
-    1. chr()
-    1. bin()
-    1. oct()
-    1. hex()
-    1. set()
+1. int()
+1. float()
+1. complex()
+1. bool()
+1. str()
+1. list()
+1. tuple()
+1. ord()
+1. chr()
+1. bin()
+1. oct()
+1. hex()
+1. set()
 
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -398,11 +404,12 @@ An object is called iterable if we can get an iterator from it
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Everything is object
-•	Data types as object
-•	Function as objects
-•	Classes as object
-•	Type as object
+### Everything is object
+    
+1.	Data types as object
+1.	Function as objects
+1.	Classes as object
+1.	Type as object
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -473,8 +480,6 @@ Everything is object
 
     10. Lambda function
     11. Recursive functions
-    
-
 
 1. **Built in Functions**
     1.  **Math**
@@ -610,89 +615,85 @@ Everything is object
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Exception handling
-1. **keywords**
-    1. try
-    1. except
-    1. finally
-    1. else
-    1. raise
-
-1. **Exception hierarchy**
-   •	Syntax error
-    •	Built-in Exceptions
-    •	Raising exceptions
-    •	Handling exception with try … except
-    •	Built-in exception hierarchy
+  
+1. Syntax error
+1.	Built-in Exceptions
+1.	Raising exceptions
+1.	Handling exception with try … except
+1.	Built-in exception hierarchy
+    
         1. BaseException
-        * SystemExit
-        * KeyboardInterrupt
-        * GeneratorExit
-        * Exception
-            * StopIteration
-            * StopAsyncIteration
-            * ArithmeticError
-                * FloatingPointError
-                * OverflowError
-                * ZeroDivisionError
-            * AssertionError
-          * AttributeError
-          * BufferError
-          * EOFError
-          * ImportError
-              * ModuleNotFoundError
-          * LookupError
-              * IndexError
-              * KeyError
-          * MemoryError
-          * NameError
-            * UnboundLocalError
-          * OSError
-              * BlockingIOError
-              * ChildProcessError
-              * ConnectionError
-                  * BrokenPipeError
-                  * ConnectionAbortedError
-                  * ConnectionRefusedError
-                  * ConnectionResetError
-              * FileExistsError
-              * FileNotFoundError
-              * InterruptedError
-              * IsADirectoryError
-              * NotADirectoryError
-              * PermissionError
-              * ProcessLookupError
-              * TimeoutError
-          * ReferenceError
-          * RuntimeError
-              * NotImplementedError
-              * RecursionError
-          * SyntaxError
-            * IndentationError
-                * TabError
-          * SystemError
-          * TypeError
-          * ValueError
-            * UnicodeError
-              * UnicodeDecodeError
-              * UnicodeEncodeError
-              * UnicodeTranslateError
-          * Warning
-               * DeprecationWarning
-               * PendingDeprecationWarning
-               * RuntimeWarning
-               * SyntaxWarning
-               * UserWarning
-               * FutureWarning
-               * ImportWarning
-               * UnicodeWarning
-               * BytesWarning
-               * ResourceWarning
-    •	Multiple except clause
-    •	Multiple exception in single except clause
-    •	Try … else clause
-    •	Try … Finally, clause
-    •	Creating custom exceptions
-    •	Customizing custom exceptions -- OOP
+            * SystemExit
+            * KeyboardInterrupt
+            * GeneratorExit
+            * Exception
+                * StopIteration
+                * StopAsyncIteration
+                * ArithmeticError
+                    * FloatingPointError
+                    * OverflowError
+                    * ZeroDivisionError
+                * AssertionError
+              * AttributeError
+              * BufferError
+              * EOFError
+              * ImportError
+                  * ModuleNotFoundError
+              * LookupError
+                  * IndexError
+                  * KeyError
+              * MemoryError
+              * NameError
+                * UnboundLocalError
+              * OSError
+                  * BlockingIOError
+                  * ChildProcessError
+                  * ConnectionError
+                      * BrokenPipeError
+                      * ConnectionAbortedError
+                      * ConnectionRefusedError
+                      * ConnectionResetError
+                  * FileExistsError
+                  * FileNotFoundError
+                  * InterruptedError
+                  * IsADirectoryError
+                  * NotADirectoryError
+                  * PermissionError
+                  * ProcessLookupError
+                  * TimeoutError
+              * ReferenceError
+              * RuntimeError
+                  * NotImplementedError
+                  * RecursionError
+              * SyntaxError
+                * IndentationError
+                    * TabError
+              * SystemError
+              * TypeError
+              * ValueError
+                * UnicodeError
+                  * UnicodeDecodeError
+                  * UnicodeEncodeError
+                  * UnicodeTranslateError
+              * Warning
+                   * DeprecationWarning
+                   * PendingDeprecationWarning
+                   * RuntimeWarning
+                   * SyntaxWarning
+                   * UserWarning
+                   * FutureWarning
+                   * ImportWarning
+                   * UnicodeWarning
+                   * BytesWarning
+                   * ResourceWarning
+   
+    
+1. Multiple except clause
+1.	Multiple exception in single except clause
+1.	Try … else clause
+1.	Try … Finally, clause
+1.	Creating custom exceptions
+1.	Customizing custom exceptions -- OOP
 
 1. Creating custom exceptions
 ---------------------------------------------------------------------------------------------------------------------
