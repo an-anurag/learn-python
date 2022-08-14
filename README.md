@@ -701,22 +701,22 @@ An object is called iterable if we can get an iterator from it
 ### Modular Python
 ---------------------------------------------------------------------------------------------------------------------
     
-1. Builtin modules
+1. Built-in modules
 2. User defined modules
 3. Imports
     1. Absolute imports
-    2. Relative imports
-4. Module aliasing while importing
-5. Member aliasing
-6. Reloading a module
-7. Finding members of module using dir()
-4. `if __name__ == '__main__'`
+    1.	Relative imports
+    1.	Module aliasing while importing
+    1.	Member aliasing
+4. Reloading a module
+5. Finding members of module using dir()
+6. `if __name__ == '__main__'`
 
 
 ### Packages
 ---------------------------------------------------------------------------------------------------------------------
     
-1. Builtin packages
+1. Built-in packages
 2. User defined packages
 3. Use of `__init__`
 
