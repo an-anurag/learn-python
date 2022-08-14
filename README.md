@@ -698,7 +698,7 @@ An object is called iterable if we can get an iterator from it
 1. Creating custom exceptions
 ---------------------------------------------------------------------------------------------------------------------
 
-## Modular Python
+### Modular Python
 ---------------------------------------------------------------------------------------------------------------------
     
 1. Builtin modules
@@ -903,7 +903,7 @@ An object is called iterable if we can get an iterator from it
 1.	Naming convention
 
 
-## Object Oriented Python
+### Object Oriented Python
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Classes and Objects
@@ -1229,8 +1229,6 @@ An object is called iterable if we can get an iterator from it
     1. deleter
 
 ### Descriptor
-
-### Assertions
 
 ### Concurrency & Multiprogramming
 1. Multithreading
