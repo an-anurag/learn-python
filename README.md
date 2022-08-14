@@ -21,14 +21,15 @@
     1. a-z
     1. 0-9
     1. Underscore in Python.
+
+
+* **Variables**
+* **Underscore**
         1. For storing the value of last expression in interpreter.
         1. For ignoring the specific values. (so-called “I don’t care”)
         1. To give special meanings and functions to name of vartiables or functions.
         1. To use as ‘Internationalization(i18n)’ or ‘Localization(l10n)’ functions.
         1. To separate the digits of number literal value.
-
-* **Variables**
-* **Underscore
 * **Constants**
 * **comments**
     1. single line
@@ -135,83 +136,90 @@
 •	Boolean Type
 •	Sequence Types: string, list, tuple, range
     
-    
-5. **str**
-    1. literals
-        1. single line
-        1. multiline
-    1. Raw strings
-    1. Operations
-        1. Accessing
-        1. Indexing
-        1. Slicing
-        
-    1. Operators for string
-        1. `+` operator for concatenation
-        2. `*` operator for repetition
-        3. <,<=,>,>= Comparison
-        4. ==,!= equality
-        5. in , not in membership
 
-    1. Formatting
-    1. Escape Sequenses
-        * \a	ASCII Bell (BEL) character
-        * \b	ASCII Backspace (BS) character
-        * \f	ASCII Formfeed (FF) character
-        * \n	ASCII Linefeed (LF) character
-        * \N{<name>}	Character from Unicode database with given <name>
-        * \r	ASCII Carriage Return (CR) character
-        * \t	ASCII Horizontal Tab (TAB) character
-        * \uxxxx	Unicode character with 16-bit hex value xxxx
-        * \Uxxxxxxxx	Unicode character with 32-bit hex value xxxxxxxx
-        * \v	ASCII Vertical Tab (VT) character
-        * \oxx	Character with octal value xx
-        * \xhh	Character with hex value hh
-    1. Methods
-        * capitalize()	Converts the first character to upper case
-        * casefold()	Converts string into lower case
-        * center()	Returns a centered string
-        * count()	Returns the number of times a specified value occurs in a string
-        * encode()	Returns an encoded version of the string
-        * endswith()	Returns true if the string ends with the specified value
-        * expandtabs()	Sets the tab size of the string
-        * find()	Searches the string for a specified value and returns the position of where it was found
-        * format()	Formats specified values in a string
-        * format_map()	Formats specified values in a string
-        * index()	Searches the string for a specified value and returns the position of where it was found
-        * isalnum()	Returns True if all characters in the string are alphanumeric
-        * isalpha()	Returns True if all characters in the string are in the alphabet
-        * isdecimal()	Returns True if all characters in the string are decimals
-        * isdigit()	Returns True if all characters in the string are digits
-        * isidentifier()	Returns True if the string is an identifier
-        * islower()	Returns True if all characters in the string are lower case
-        * isnumeric()	Returns True if all characters in the string are numeric
-        * isprintable()	Returns True if all characters in the string are printable
-        * isspace()	Returns True if all characters in the string are whitespaces
-        * istitle()	Returns True if the string follows the rules of a title
-        * isupper()	Returns True if all characters in the string are upper case
-        * join()	Joins the elements of an iterable to the end of the string
-        * ljust()	Returns a left justified version of the string
-        * lower()	Converts a string into lower case
-        * lstrip()	Returns a left trim version of the string
-        * maketrans()	Returns a translation table to be used in translations
-        * partition()	Returns a tuple where the string is parted into three parts
-        * replace()	Returns a string where a specified value is replaced with a specified value
-        * rfind()	Searches the string for a specified value and returns the last position of where it was found
-        * rindex()	Searches the string for a specified value and returns the last position of where it was found
-        * rjust()	Returns a right justified version of the string
-        * rpartition()	Returns a tuple where the string is parted into three parts
-        * rsplit()	Splits the string at the specified separator, and returns a list
-        * rstrip()	Returns a right trim version of the string
-        * split()	Splits the string at the specified separator, and returns a list
-        * splitlines()	Splits the string at line breaks and returns a list
-        * startswith()	Returns true if the string starts with the specified value
-        * strip()	Returns a trimmed version of the string
-        * swapcase()	Swaps cases, lower case becomes upper case and vice versa
-        * title()	Converts the first character of each word to upper case
-        * translate()	Returns a translated string
-        * upper()	Converts a string into upper case
-        * zfill()	Fills the string with a specified number of 0 values at the beginning
+    5. **str**
+        1. literals
+            1. single line
+            1. multiline
+        1. Raw strings
+        1. Operations
+            1. Accessing
+            1. Indexing
+            1. Slicing
+
+        1. Operators for string
+            1. `+` operator for concatenation
+            2. `*` operator for repetition
+            3. <,<=,>,>= Comparison
+            4. ==,!= equality
+            5. in , not in membership
+
+        1. Formatting
+                1. Formatted string
+                1. %i - int
+                1. %d - int
+                1. %f - float
+                1. %s - String type
+                1. %r - 
+                1. print with {} operator
+        1. Escape Sequenses
+            * \a	ASCII Bell (BEL) character
+            * \b	ASCII Backspace (BS) character
+            * \f	ASCII Formfeed (FF) character
+            * \n	ASCII Linefeed (LF) character
+            * \N{<name>}	Character from Unicode database with given <name>
+            * \r	ASCII Carriage Return (CR) character
+            * \t	ASCII Horizontal Tab (TAB) character
+            * \uxxxx	Unicode character with 16-bit hex value xxxx
+            * \Uxxxxxxxx	Unicode character with 32-bit hex value xxxxxxxx
+            * \v	ASCII Vertical Tab (VT) character
+            * \oxx	Character with octal value xx
+            * \xhh	Character with hex value hh
+        1. Methods
+            * capitalize()	Converts the first character to upper case
+            * casefold()	Converts string into lower case
+            * center()	Returns a centered string
+            * count()	Returns the number of times a specified value occurs in a string
+            * encode()	Returns an encoded version of the string
+            * endswith()	Returns true if the string ends with the specified value
+            * expandtabs()	Sets the tab size of the string
+            * find()	Searches the string for a specified value and returns the position of where it was found
+            * format()	Formats specified values in a string
+            * format_map()	Formats specified values in a string
+            * index()	Searches the string for a specified value and returns the position of where it was found
+            * isalnum()	Returns True if all characters in the string are alphanumeric
+            * isalpha()	Returns True if all characters in the string are in the alphabet
+            * isdecimal()	Returns True if all characters in the string are decimals
+            * isdigit()	Returns True if all characters in the string are digits
+            * isidentifier()	Returns True if the string is an identifier
+            * islower()	Returns True if all characters in the string are lower case
+            * isnumeric()	Returns True if all characters in the string are numeric
+            * isprintable()	Returns True if all characters in the string are printable
+            * isspace()	Returns True if all characters in the string are whitespaces
+            * istitle()	Returns True if the string follows the rules of a title
+            * isupper()	Returns True if all characters in the string are upper case
+            * join()	Joins the elements of an iterable to the end of the string
+            * ljust()	Returns a left justified version of the string
+            * lower()	Converts a string into lower case
+            * lstrip()	Returns a left trim version of the string
+            * maketrans()	Returns a translation table to be used in translations
+            * partition()	Returns a tuple where the string is parted into three parts
+            * replace()	Returns a string where a specified value is replaced with a specified value
+            * rfind()	Searches the string for a specified value and returns the last position of where it was found
+            * rindex()	Searches the string for a specified value and returns the last position of where it was found
+            * rjust()	Returns a right justified version of the string
+            * rpartition()	Returns a tuple where the string is parted into three parts
+            * rsplit()	Splits the string at the specified separator, and returns a list
+            * rstrip()	Returns a right trim version of the string
+            * split()	Splits the string at the specified separator, and returns a list
+            * splitlines()	Splits the string at line breaks and returns a list
+            * startswith()	Returns true if the string starts with the specified value
+            * strip()	Returns a trimmed version of the string
+            * swapcase()	Swaps cases, lower case becomes upper case and vice versa
+            * title()	Converts the first character of each word to upper case
+            * translate()	Returns a translated string
+            * upper()	Converts a string into upper case
+            * zfill()	Fills the string with a specified number of 0 values at the beginning
         
         9. **list**
     1. defining list
@@ -250,44 +258,32 @@
         * reverse()	Reverses the order of the list
         * sort()	Sorts the list
 
-10. **tuple**
-    1. Defining tuple
-        1. t=()
-        2. t=(10,)
-        3. t=10,20,30
-        4. tuple()
-    1. Operations
-        1. Indexing
-        1. Slicing
-        1. Traversing
-            using for loop
-    1. Tuple vs immutability:
-    1. Operators for tuple
-        1. Concatenation operator(+):
-        2. Repetition Operator(*):
-        3. in , not in Membership
-    1. Tuple Packing and Unpacking:
-    1. Tuple comprehension
-    1. Methods
-        * count()	Returns the number of times a specified value occurs in a tuple
-        * index()	Searches the tuple for a specified value and returns the position of where it was found
+    10. **tuple**
+        1. Defining tuple
+            1. t=()
+            2. t=(10,)
+            3. t=10,20,30
+            4. tuple()
+        1. Operations
+            1. Indexing
+            1. Slicing
+            1. Traversing
+                using for loop
+        1. Tuple vs immutability:
+        1. Operators for tuple
+            1. Concatenation operator(+):
+            2. Repetition Operator(*):
+            3. in , not in Membership
+        1. Tuple Packing and Unpacking:
+        1. Tuple comprehension
+        1. Methods
+            * count()	Returns the number of times a specified value occurs in a tuple
+            * index()	Searches the tuple for a specified value and returns the position of where it was found
+            
+    8. **range**
     
 •	Set Sequence Types: set, frozenset
-•	Byte Sequence Types: byte, bytearray
-•	Map Type: dictionary
-•	User defined types
-
-
-
-6. **bytes**
-
-7. **bytearray**
-
-8. **range**
-
-
-
-11. **set**
+    11. **set**
     1. Defining set
         1. using set()
     1. Set vs immutability:
@@ -320,7 +316,12 @@
 
 12. **frozenset**
 
-13. **dict**
+•	Byte Sequence Types: byte, bytearray
+    6. **bytes**
+    7. **bytearray**
+    
+•	Map Type: dictionary
+    13. **dict**
     1. Defining dicts
         1. d = {}
         2. d = dict()
@@ -342,50 +343,26 @@
                         insert the key, with the specified value
         * update()	Updates the dictionary with the specified key-value pairs
         * values()	Returns a list of all the values in the dictionary
-14. **None**
-
----------------------------------------------------------------------------------------------------------------------
-
-### Mutability & Immutability
-
----------------------------------------------------------------------------------------------------------------------
-
-
-### Shallow and Deep Copy
+        
+•	User defined types
+    class
+ 
 
 ---------------------------------------------------------------------------------------------------------------------
 
 ### Type Casting
-1. int()
-1. float()
-1. complex()
-1. bool()
-1. str()
-1. list()
-1. tuple()
 
----------------------------------------------------------------------------------------------------------------------
+•	Implicit type conversion
+•	Explicit type conversion
+•	Type casting functions
 
-### Input and output statements
-1. raw_input()
-1. input()
-1. print()
-    1. Formatted string
-        1. %i - int
-        1. %d - int
-        1. %f - float
-        1. %s - String type
-        1. %r - 
-        1. print with {} operator
-
----------------------------------------------------------------------------------------------------------------------
-
-### Command line arguments
-1. Modules:
-    1. sys
-    1. argparse
-    1. getopt
-    1. optparse
+    1. int()
+    1. float()
+    1. complex()
+    1. bool()
+    1. str()
+    1. list()
+    1. tuple()
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -417,8 +394,84 @@ An object is called iterable if we can get an iterator from it
 
 ---------------------------------------------------------------------------------------------------------------------
 
+Everything is object
+•	Data types as object
+•	Function as objects
+•	Classes as object
+•	Type as object
+
+---------------------------------------------------------------------------------------------------------------------
+
+### Special variables
+
+1. `__bases__`
+1. `__builtins__`
+1. `__call__`
+1. `__class__`
+1. `__closure__`
+1. `__dict__`
+1. `__doc__`
+1. `__file__`
+1. `__init__`
+1. `__init_subclass__`
+1. `__loader__`
+1. `__main__`
+1. `__metaclass__`
+1. `__module__`
+1. `__new__`
+1. `__name__`
+1. `__package__`
+1. `__prepare__`
+1. `__slots__`
+1. `__subclasshook__`
+1. `__spec__`
+1. `__weakref__`
+
+
+---------------------------------------------------------------------------------------------------------------------
+
 ### Functions:
-**Types:**
+
+1. **User Defined Functions**
+    1. defining a function
+    2. calling a function
+    3. returning from function
+    1. namespace
+    1. global Vs local variables
+    2. main function
+    4. function arguments
+        1. positional args
+        2. default args
+        3. keyword args
+        4. `**args`
+        5. `**kwargs`
+    5. function aliasing
+    6. Function as a argument
+        1. calling passed function
+        2. returning passed function call
+        3. returning passed function reference
+    11. Nested functions
+        1. defining nested function
+        2. calling nested function
+        3. returning nested functions which is not returning value
+        3. returning nested functions which is returning value
+        4. returning nested function reference which is not returning value
+        4. returning nested function reference which is returning value
+        5. function closure
+        6. use of `global` keyword
+        7. use of `nonlocal` keyword
+    
+    8. generators
+        1. Defining generators
+        2. Using generator expressions
+        3. yield from
+        4. `send()`
+
+    10. Lambda function
+    11. Recursive functions
+    
+
+
 1. **Built in Functions**
     1.  **Math**
         1. abs()	Returns absolute value of a number
@@ -484,14 +537,52 @@ An object is called iterable if we can get an iterator from it
         1. format()	Converts a value to a formatted representation
         1. input()	Reads input from the console
         1. open()	Opens a file and returns a file object
-        1. print()	Prints to a text stream or the console
-        1. Variables, References, and Scope
-        1. Function	Description
-        1. dir()	Returns a list of names in current local scope or a list of object attributes
-        1. globals()	Returns a dictionary representing the current global symbol table
-        1. id()	Returns the identity of an object
-        1. locals()	Updates and returns a dictionary representing current local symbol table
-        1. vars()	Returns __dict__ attribute for a module, class, or object
+
+
+            2. **Access modes**
+
+                1. <r>	It opens a file in read-only mode while the file offset stays at the root.
+                1. <rb>	It opens a file in (binary + read-only) modes. And the offset remains at the root level.
+                1. <r+>	It opens the file in both (read + write) modes while the file offset is again at the root level.
+                1. <rb+>	It opens the file in (read + write + binary) modes. The file offset is again at the root level.
+                1. <w>	It allows write-level access to a file. If the file already exists, then it’ll get overwritten. It’ll create a new file if the same doesn’t exist.
+                1. <wb>	Use it to open a file for writing in binary format. Same behavior as for write-only mode.
+                1. <w+>	It opens a file in both (read + write) modes. Same behavior as for write-only mode.
+                1. <wb+>	It opens a file in (read + write + binary) modes. Same behavior as for write-only mode.
+                1. <a>	It opens the file in append mode. The offset goes to the end of the file. If the file doesn’t exist, then it gets created.
+                1. <ab>	It opens a file in (append + binary) modes. Same behavior as for append mode.
+                1. <a+>	It opens a file in (append + read) modes. Same behavior as for append mode.
+                1. <ab+>	It opens a file in (append + read + binary) modes. Same behavior as for append mode.
+                1. 'x'	Creates a new file. If file already exists, the operation fails.
+                1. 't'	This is the default mode. It opens in text mode.
+                1. 'b'	This opens in binary mode.
+
+            3. **Methods**
+                1. close()	Close an open file. It has no effect if the file is already closed.
+                1. detach()	Separate the underlying binary buffer from the TextIOBase and return it.
+                1. fileno()	Return an integer number (file descriptor) of the file.
+                1. flush()	Flush the write buffer of the file stream.
+                1. isatty()	Return True if the file stream is interactive.
+                1. read(n)	Read atmost n characters form the file. Reads till end of file if it is negative or None.
+                1. readable()	Returns True if the file stream can be read from.
+                1. readline(n=-1)	Read and return one line from the file. Reads in at most n bytes if specified.
+                1. readlines(n=-1)	Read and return a list of lines from the file. Reads in at most n bytes/characters if specified.
+                1. seek(offset,from=SEEK_SET)	Change the file position to offset bytes, in reference to from (start, current, end).
+                1. seekable()	Returns True if the file stream supports random access.
+                1. tell()	Returns the current file location.
+                1. truncate(size=None)	Resize the file stream to size bytes. If size is not specified, resize to current location.
+                1. writable()	Returns True if the file stream can be written to.
+                1. write(s)	Write string s to the file and return the number of characters written.
+                1. writelines(lines)	Write a list of lines to the file.
+
+        3. print()	Prints to a text stream or the console
+        4. Variables, References, and Scope
+        5. Function	Description
+        6. dir()	Returns a list of names in current local scope or a list of object attributes
+        7. globals()	Returns a dictionary representing the current global symbol table
+        8. id()	Returns the identity of an object
+        9. locals()	Updates and returns a dictionary representing current local symbol table
+        10. vars()	Returns __dict__ attribute for a module, class, or object
 
     1. **Miscellaneous**
         1. callable()	Returns True if object appears callable
@@ -505,77 +596,6 @@ An object is called iterable if we can get an iterator from it
         1. `__import__()`	Invoked by the import statement
 
 
-1. **User Defined Functions**
-    1. defining a function
-    2. calling a function
-    3. returning from function
-    1. namespace
-    1. global Vs local variables
-    4. function arguments
-        1. positional args
-        2. default args
-        3. keyword args
-        4. `**args`
-        5. `**kwargs`
-    5. function aliasing
-    6. Function as a argument
-        1. calling passed function
-        2. returning passed function call
-        3. returning passed function reference
-    7. main function
-    8. generators
-        1. Using functions
-        2. Using generator expressions
-        3. yield from
-        4. `send()`
-    9. Recursive functions
-    10. Lambda function
-    11. Nested functions
-        1. defining nested function
-        2. calling nested function
-        3. returning nested functions which is not returning value
-        3. returning nested functions which is returning value
-        4. returning nested function reference which is not returning value
-        4. returning nested function reference which is returning value
-        5. function closure
-        6. use of `global` keyword
-        7. use of `nonlocal` keyword
-    12. function decorators
-        1. without function args
-        2. with function args
-        3. with decorator args
-        4. with @wrap
-        5. decorator chaining
-
-
----------------------------------------------------------------------------------------------------------------------
-
-### Special variables
-
-1. `__bases__`
-1. `__builtins__`
-1. `__call__`
-1. `__class__`
-1. `__closure__`
-1. `__dict__`
-1. `__doc__`
-1. `__file__`
-1. `__init__`
-1. `__init_subclass__`
-1. `__loader__`
-1. `__main__`
-1. `__metaclass__`
-1. `__module__`
-1. `__new__`
-1. `__name__`
-1. `__package__`
-1. `__prepare__`
-1. `__slots__`
-1. `__subclasshook__`
-1. `__spec__`
-1. `__weakref__`
-
-
 ---------------------------------------------------------------------------------------------------------------------
 
 ### File Handling
@@ -583,41 +603,6 @@ An object is called iterable if we can get an iterator from it
     1. open()
     2. with open()
 
-2. **Access modes**
-
-    1. <r>	It opens a file in read-only mode while the file offset stays at the root.
-    1. <rb>	It opens a file in (binary + read-only) modes. And the offset remains at the root level.
-    1. <r+>	It opens the file in both (read + write) modes while the file offset is again at the root level.
-    1. <rb+>	It opens the file in (read + write + binary) modes. The file offset is again at the root level.
-    1. <w>	It allows write-level access to a file. If the file already exists, then it’ll get overwritten. It’ll create a new file if the same doesn’t exist.
-    1. <wb>	Use it to open a file for writing in binary format. Same behavior as for write-only mode.
-    1. <w+>	It opens a file in both (read + write) modes. Same behavior as for write-only mode.
-    1. <wb+>	It opens a file in (read + write + binary) modes. Same behavior as for write-only mode.
-    1. <a>	It opens the file in append mode. The offset goes to the end of the file. If the file doesn’t exist, then it gets created.
-    1. <ab>	It opens a file in (append + binary) modes. Same behavior as for append mode.
-    1. <a+>	It opens a file in (append + read) modes. Same behavior as for append mode.
-    1. <ab+>	It opens a file in (append + read + binary) modes. Same behavior as for append mode.
-    1. 'x'	Creates a new file. If file already exists, the operation fails.
-    1. 't'	This is the default mode. It opens in text mode.
-    1. 'b'	This opens in binary mode.
-
-3. **Methods**
-    1. close()	Close an open file. It has no effect if the file is already closed.
-    1. detach()	Separate the underlying binary buffer from the TextIOBase and return it.
-    1. fileno()	Return an integer number (file descriptor) of the file.
-    1. flush()	Flush the write buffer of the file stream.
-    1. isatty()	Return True if the file stream is interactive.
-    1. read(n)	Read atmost n characters form the file. Reads till end of file if it is negative or None.
-    1. readable()	Returns True if the file stream can be read from.
-    1. readline(n=-1)	Read and return one line from the file. Reads in at most n bytes if specified.
-    1. readlines(n=-1)	Read and return a list of lines from the file. Reads in at most n bytes/characters if specified.
-    1. seek(offset,from=SEEK_SET)	Change the file position to offset bytes, in reference to from (start, current, end).
-    1. seekable()	Returns True if the file stream supports random access.
-    1. tell()	Returns the current file location.
-    1. truncate(size=None)	Resize the file stream to size bytes. If size is not specified, resize to current location.
-    1. writable()	Returns True if the file stream can be written to.
-    1. write(s)	Write string s to the file and return the number of characters written.
-    1. writelines(lines)	Write a list of lines to the file.
 
 4. **Modules:**
     1. os
@@ -648,8 +633,9 @@ An object is called iterable if we can get an iterator from it
 
 ---------------------------------------------------------------------------------------------------------------------
 ### Context Managers
-* with function
-* with classes
+    •	Using built in context managers
+    •	Multiple context managers with “with”
+    •	Creating custom context managers -- OOP
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -662,8 +648,12 @@ An object is called iterable if we can get an iterator from it
     1. raise
 
 1. **Exception hierarchy**
-   
-    1. BaseException
+   •	Syntax error
+    •	Built-in Exceptions
+    •	Raising exceptions
+    •	Handling exception with try … except
+    •	Built-in exception hierarchy
+        1. BaseException
         * SystemExit
         * KeyboardInterrupt
         * GeneratorExit
@@ -727,11 +717,26 @@ An object is called iterable if we can get an iterator from it
                * UnicodeWarning
                * BytesWarning
                * ResourceWarning
+    •	Multiple except clause
+    •	Multiple exception in single except clause
+    •	Try … else clause
+    •	Try … Finally, clause
+    •	Creating custom exceptions
+    •	Customizing custom exceptions -- OOP
 
 1. Creating custom exceptions
 ---------------------------------------------------------------------------------------------------------------------
 
 ## Modular Python
+    
+    ### Command line arguments
+1. Modules:
+    1. sys
+    1. argparse
+    1. getopt
+    1. optparse
+
+---------------------------------------------------------------------------------------------------------------------
 1. Builtin modules
 2. User defined modules
 3. Imports
