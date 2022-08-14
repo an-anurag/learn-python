@@ -14,27 +14,27 @@
 
 ### Basics
 
-* **Modules**
-* **Statements**
-* **Character set**
+* Modules
+* Statements
+* Character set
     1. A-Z
     1. a-z
     1. 0-9
     1. Underscore in Python.
 
-
-* **Variables**
-* **Underscore**
-        1. For storing the value of last expression in interpreter.
-        1. For ignoring the specific values. (so-called “I don’t care”)
-        1. To give special meanings and functions to name of vartiables or functions.
-        1. To use as ‘Internationalization(i18n)’ or ‘Localization(l10n)’ functions.
-        1. To separate the digits of number literal value.
-* **Constants**
-* **comments**
+* Variables
+* Underscore
+    1. For storing the value of last expression in interpreter.
+    1. For ignoring the specific values. (so-called “I don’t care”)
+    1. To give special meanings and functions to name of vartiables or functions.
+    1. To use as ‘Internationalization(i18n)’ or ‘Localization(l10n)’ functions.
+    1. To separate the digits of number literal value.
+* Constants
+* comments
     1. single line
     1. multiline
 * **Code blocks and Indentation**
+    1. pass
 * **Comments**
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -50,7 +50,6 @@
     1. String literals
 * **Punctuators**
 * **Operators**
-* Types:
     1. **Arithmetic Operators**
         1. `+` ==>Addition
         1. `-` ==>Subtraction
@@ -120,108 +119,106 @@
 ### Data types
 
 •	Type checking
-•	Integer Types: int, float, complex
+•	**Integer Types: int, float, complex**
+1. **int**
+1. Literals
+    1. Binary
+    1. Octals
+    1. Hexadecimals
 
-    1. **int**
-    1. Literals
-        1. Binary
-        1. Octals
-        1. Hexadecimals
+1.  **float**
 
-    1.  **float**
-
-    1. **complex**
+1. **complex**
     
 •	None Type
 •	Boolean Type
 •	Sequence Types: string, list, tuple, range
-    
 
-    5. **str**
-        1. literals
-            1. single line
-            1. multiline
-        1. Raw strings
-        1. Operations
-            1. Accessing
-            1. Indexing
-            1. Slicing
+1. **str**
+    1. literals
+        1. single line
+        1. multiline
+    1. Raw strings
+    1. Operations
+        1. Accessing
+        1. Indexing
+        1. Slicing
 
-        1. Operators for string
-            1. `+` operator for concatenation
-            2. `*` operator for repetition
-            3. <,<=,>,>= Comparison
-            4. ==,!= equality
-            5. in , not in membership
+    1. Operators for string
+        1. `+` operator for concatenation
+        2. `*` operator for repetition
+        3. <,<=,>,>= Comparison
+        4. ==,!= equality
+        5. in , not in membership
 
-        1. Formatting
-                1. Formatted string
-                1. %i - int
-                1. %d - int
-                1. %f - float
-                1. %s - String type
-                1. %r - 
-                1. print with {} operator
-        1. Escape Sequenses
-            * \a	ASCII Bell (BEL) character
-            * \b	ASCII Backspace (BS) character
-            * \f	ASCII Formfeed (FF) character
-            * \n	ASCII Linefeed (LF) character
-            * \N{<name>}	Character from Unicode database with given <name>
-            * \r	ASCII Carriage Return (CR) character
-            * \t	ASCII Horizontal Tab (TAB) character
-            * \uxxxx	Unicode character with 16-bit hex value xxxx
-            * \Uxxxxxxxx	Unicode character with 32-bit hex value xxxxxxxx
-            * \v	ASCII Vertical Tab (VT) character
-            * \oxx	Character with octal value xx
-            * \xhh	Character with hex value hh
-        1. Methods
-            * capitalize()	Converts the first character to upper case
-            * casefold()	Converts string into lower case
-            * center()	Returns a centered string
-            * count()	Returns the number of times a specified value occurs in a string
-            * encode()	Returns an encoded version of the string
-            * endswith()	Returns true if the string ends with the specified value
-            * expandtabs()	Sets the tab size of the string
-            * find()	Searches the string for a specified value and returns the position of where it was found
-            * format()	Formats specified values in a string
-            * format_map()	Formats specified values in a string
-            * index()	Searches the string for a specified value and returns the position of where it was found
-            * isalnum()	Returns True if all characters in the string are alphanumeric
-            * isalpha()	Returns True if all characters in the string are in the alphabet
-            * isdecimal()	Returns True if all characters in the string are decimals
-            * isdigit()	Returns True if all characters in the string are digits
-            * isidentifier()	Returns True if the string is an identifier
-            * islower()	Returns True if all characters in the string are lower case
-            * isnumeric()	Returns True if all characters in the string are numeric
-            * isprintable()	Returns True if all characters in the string are printable
-            * isspace()	Returns True if all characters in the string are whitespaces
-            * istitle()	Returns True if the string follows the rules of a title
-            * isupper()	Returns True if all characters in the string are upper case
-            * join()	Joins the elements of an iterable to the end of the string
-            * ljust()	Returns a left justified version of the string
-            * lower()	Converts a string into lower case
-            * lstrip()	Returns a left trim version of the string
-            * maketrans()	Returns a translation table to be used in translations
-            * partition()	Returns a tuple where the string is parted into three parts
-            * replace()	Returns a string where a specified value is replaced with a specified value
-            * rfind()	Searches the string for a specified value and returns the last position of where it was found
-            * rindex()	Searches the string for a specified value and returns the last position of where it was found
-            * rjust()	Returns a right justified version of the string
-            * rpartition()	Returns a tuple where the string is parted into three parts
-            * rsplit()	Splits the string at the specified separator, and returns a list
-            * rstrip()	Returns a right trim version of the string
-            * split()	Splits the string at the specified separator, and returns a list
-            * splitlines()	Splits the string at line breaks and returns a list
-            * startswith()	Returns true if the string starts with the specified value
-            * strip()	Returns a trimmed version of the string
-            * swapcase()	Swaps cases, lower case becomes upper case and vice versa
-            * title()	Converts the first character of each word to upper case
-            * translate()	Returns a translated string
-            * upper()	Converts a string into upper case
-            * zfill()	Fills the string with a specified number of 0 values at the beginning
+    1. Formatting
+            1. Formatted string
+            1. %i - int
+            1. %d - int
+            1. %f - float
+            1. %s - String type
+            1. %r - 
+            1. print with {} operator
+    1. Escape Sequenses
+        * \a	ASCII Bell (BEL) character
+        * \b	ASCII Backspace (BS) character
+        * \f	ASCII Formfeed (FF) character
+        * \n	ASCII Linefeed (LF) character
+        * \N{<name>}	Character from Unicode database with given <name>
+        * \r	ASCII Carriage Return (CR) character
+        * \t	ASCII Horizontal Tab (TAB) character
+        * \uxxxx	Unicode character with 16-bit hex value xxxx
+        * \Uxxxxxxxx	Unicode character with 32-bit hex value xxxxxxxx
+        * \v	ASCII Vertical Tab (VT) character
+        * \oxx	Character with octal value xx
+        * \xhh	Character with hex value hh
+    1. Methods
+        * capitalize()	Converts the first character to upper case
+        * casefold()	Converts string into lower case
+        * center()	Returns a centered string
+        * count()	Returns the number of times a specified value occurs in a string
+        * encode()	Returns an encoded version of the string
+        * endswith()	Returns true if the string ends with the specified value
+        * expandtabs()	Sets the tab size of the string
+        * find()	Searches the string for a specified value and returns the position of where it was found
+        * format()	Formats specified values in a string
+        * format_map()	Formats specified values in a string
+        * index()	Searches the string for a specified value and returns the position of where it was found
+        * isalnum()	Returns True if all characters in the string are alphanumeric
+        * isalpha()	Returns True if all characters in the string are in the alphabet
+        * isdecimal()	Returns True if all characters in the string are decimals
+        * isdigit()	Returns True if all characters in the string are digits
+        * isidentifier()	Returns True if the string is an identifier
+        * islower()	Returns True if all characters in the string are lower case
+        * isnumeric()	Returns True if all characters in the string are numeric
+        * isprintable()	Returns True if all characters in the string are printable
+        * isspace()	Returns True if all characters in the string are whitespaces
+        * istitle()	Returns True if the string follows the rules of a title
+        * isupper()	Returns True if all characters in the string are upper case
+        * join()	Joins the elements of an iterable to the end of the string
+        * ljust()	Returns a left justified version of the string
+        * lower()	Converts a string into lower case
+        * lstrip()	Returns a left trim version of the string
+        * maketrans()	Returns a translation table to be used in translations
+        * partition()	Returns a tuple where the string is parted into three parts
+        * replace()	Returns a string where a specified value is replaced with a specified value
+        * rfind()	Searches the string for a specified value and returns the last position of where it was found
+        * rindex()	Searches the string for a specified value and returns the last position of where it was found
+        * rjust()	Returns a right justified version of the string
+        * rpartition()	Returns a tuple where the string is parted into three parts
+        * rsplit()	Splits the string at the specified separator, and returns a list
+        * rstrip()	Returns a right trim version of the string
+        * split()	Splits the string at the specified separator, and returns a list
+        * splitlines()	Splits the string at line breaks and returns a list
+        * startswith()	Returns true if the string starts with the specified value
+        * strip()	Returns a trimmed version of the string
+        * swapcase()	Swaps cases, lower case becomes upper case and vice versa
+        * title()	Converts the first character of each word to upper case
+        * translate()	Returns a translated string
+        * upper()	Converts a string into upper case
+        * zfill()	Fills the string with a specified number of 0 values at the beginning
         
-        9. **list**
+  1. **list**
     1. defining list
         1. list = []
         2. list=[10,20,30,40]
@@ -258,7 +255,7 @@
         * reverse()	Reverses the order of the list
         * sort()	Sorts the list
 
-    10. **tuple**
+   1. **tuple**
         1. Defining tuple
             1. t=()
             2. t=(10,)
@@ -280,72 +277,73 @@
             * count()	Returns the number of times a specified value occurs in a tuple
             * index()	Searches the tuple for a specified value and returns the position of where it was found
             
-    8. **range**
+   1. **range**
     
-•	Set Sequence Types: set, frozenset
-    11. **set**
-    1. Defining set
-        1. using set()
-    1. Set vs immutability:
-    1. Operations:
-        1. Union
-        1. Intersection
-        1. Difference
-        1. Symmetric difference
-    1. Operators for set
-        1. Membership operators: (in , not in)
-    1. Set comprehension
-    1. Methods
-        * add()	Adds an element to the set
-        * clear()	Removes all the elements from the set
-        * copy()	Returns a copy of the set
-        * difference()	Returns a set containing the difference between two or more sets
-        * difference_update()	Removes the items in this set that are also included in another, specified set
-        * discard()	Remove the specified item
-        * intersection()	Returns a set, that is the intersection of two other sets
-        * intersection_update()	Removes the items in this set that are not present in other, specified set(s)
-        * isdisjoint()	Returns whether two sets have a intersection or not
-        * issubset()	Returns whether another set contains this set or not
-        * issuperset()	Returns whether this set contains another set or not
-        * pop()	Removes an element from the set
-        * remove()	Removes the specified element
-        * symmetric_difference()	Returns a set with the symmetric differences of two sets
-        * symmetric_difference_update()	inserts the symmetric differences from this set and another
-        * union()	Return a set containing the union of sets
-        * update()	Update the set with the union of this set and others
+•	**Set Sequence Types: set, frozenset**
+    1. **set**
+        1. Defining set
+            1. using set()
+        1. Set vs immutability:
+        1. Operations:
+            1. Union
+            1. Intersection
+            1. Difference
+            1. Symmetric difference
+        1. Operators for set
+            1. Membership operators: (in , not in)
+        1. Set comprehension
+        1. Methods
+            * add()	Adds an element to the set
+            * clear()	Removes all the elements from the set
+            * copy()	Returns a copy of the set
+            * difference()	Returns a set containing the difference between two or more sets
+            * difference_update()	Removes the items in this set that are also included in another, specified set
+            * discard()	Remove the specified item
+            * intersection()	Returns a set, that is the intersection of two other sets
+            * intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+            * isdisjoint()	Returns whether two sets have a intersection or not
+            * issubset()	Returns whether another set contains this set or not
+            * issuperset()	Returns whether this set contains another set or not
+            * pop()	Removes an element from the set
+            * remove()	Removes the specified element
+            * symmetric_difference()	Returns a set with the symmetric differences of two sets
+            * symmetric_difference_update()	inserts the symmetric differences from this set and another
+            * union()	Return a set containing the union of sets
+            * update()	Update the set with the union of this set and others
 
-12. **frozenset**
+    1. **frozenset**
 
-•	Byte Sequence Types: byte, bytearray
+•	**Byte Sequence Types: byte, bytearray**
     6. **bytes**
     7. **bytearray**
     
-•	Map Type: dictionary
-    13. **dict**
-    1. Defining dicts
-        1. d = {}
-        2. d = dict()
-    1. Operations
-        1. Accessing
-        1. Updating dicts
-        1. deleting elements
-    1. dict comprehensions
-    1. Methods
-        * clear()	Removes all the elements from the dictionary
-        * copy()	Returns a copy of the dictionary
-        * fromkeys()	Returns a dictionary with the specified keys and values
-        * get()	Returns the value of the specified key
-        * items()	Returns a list containing a tuple for each key value pair
-        * keys()	Returns a list containing the dictionary's keys
-        * pop()	Removes the element with the specified key
-        * popitem()	Removes the last inserted key-value pair
-        * setdefault()	Returns the value of the specified key. If the key does not exist:
-                        insert the key, with the specified value
-        * update()	Updates the dictionary with the specified key-value pairs
-        * values()	Returns a list of all the values in the dictionary
+•	**Map Type: dictionary**
+    1. **dict**
+        1. Defining dicts
+            1. d = {}
+            2. d = dict()
+        1. Operations
+            1. Accessing
+            1. Updating dicts
+            1. deleting elements
+        1. dict comprehensions
+        1. Methods
+            * clear()	Removes all the elements from the dictionary
+            * copy()	Returns a copy of the dictionary
+            * fromkeys()	Returns a dictionary with the specified keys and values
+            * get()	Returns the value of the specified key
+            * items()	Returns a list containing a tuple for each key value pair
+            * keys()	Returns a list containing the dictionary's keys
+            * pop()	Removes the element with the specified key
+            * popitem()	Removes the last inserted key-value pair
+            * setdefault()	Returns the value of the specified key. If the key does not exist:
+                            insert the key, with the specified value
+            * update()	Updates the dictionary with the specified key-value pairs
+            * values()	Returns a list of all the values in the dictionary
         
 •	User defined types
     class
+    writing classes
  
 
 ---------------------------------------------------------------------------------------------------------------------
@@ -363,6 +361,13 @@
     1. str()
     1. list()
     1. tuple()
+    1. ord()
+    1. chr()
+    1. bin()
+    1. oct()
+    1. hex()
+    1. set()
+
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -377,7 +382,6 @@
 3. **Transfer**
     1. continue
     2. break
-    3. pass
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -539,7 +543,7 @@ Everything is object
         1. open()	Opens a file and returns a file object
 
 
-            2. **Access modes**
+            1. **Access modes**
 
                 1. <r>	It opens a file in read-only mode while the file offset stays at the root.
                 1. <rb>	It opens a file in (binary + read-only) modes. And the offset remains at the root level.
@@ -557,7 +561,7 @@ Everything is object
                 1. 't'	This is the default mode. It opens in text mode.
                 1. 'b'	This opens in binary mode.
 
-            3. **Methods**
+            1. **Methods**
                 1. close()	Close an open file. It has no effect if the file is already closed.
                 1. detach()	Separate the underlying binary buffer from the TextIOBase and return it.
                 1. fileno()	Return an integer number (file descriptor) of the file.
@@ -596,46 +600,12 @@ Everything is object
         1. `__import__()`	Invoked by the import statement
 
 
----------------------------------------------------------------------------------------------------------------------
-
-### File Handling
-1. **syntax**
-    1. open()
-    2. with open()
-
-
-4. **Modules:**
-    1. os
-    1. pathlib
-    1. tempfile
-    1. shutil
-    1. zipfile
-    1. tarfile
-    1. fileinput
-
-5. **Common Operation**
-    1. Get directory contents and file properties
-    1. Create directories and directory trees
-    1. Filename pattern matching
-    1. Traversing dir and processing file
-    1. Deleting files and dir
-    1. Move, rename, copy, and delete files or directories
-    1. Create temporary files and directories
-    1. Read and extract data from different types of archives
-        1. zip
-        1. tar
-    1. Read multiple files simultaneously using fileinput
-    1. Reading continuously growing file
-
-6. Working with csv files
-7. working with JSON data
-8. Python File Encoding
 
 ---------------------------------------------------------------------------------------------------------------------
 ### Context Managers
-    •	Using built in context managers
-    •	Multiple context managers with “with”
-    •	Creating custom context managers -- OOP
+1.	Using built in context managers
+1.	Multiple context managers with “with”
+1.	Creating custom context managers -- OOP
 
 ---------------------------------------------------------------------------------------------------------------------
 
