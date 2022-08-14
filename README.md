@@ -711,18 +711,18 @@ An object is called iterable if we can get an iterator from it
 6. Reloading a module
 7. Finding members of module using dir()
 4. `if __name__ == '__main__'`
-    
----------------------------------------------------------------------------------------------------------------------
+
 
 ### Packages
+---------------------------------------------------------------------------------------------------------------------
+    
 1. Builtin packages
 2. User defined packages
 3. Use of `__init__`
 
+### Some important builtin modules
 ---------------------------------------------------------------------------------------------------------------------
     
-### Some important builtin modules
-
 1. String
 1.	Os
 1.	Sys
@@ -825,14 +825,13 @@ An object is called iterable if we can get an iterator from it
         1. close()    
 
 
----------------------------------------------------------------------------------------------------------------------
 ### Python project setup
-* Code tags
-* PEP standards
-    
 ---------------------------------------------------------------------------------------------------------------------
+1. Project structure
 
 ### Package management
+---------------------------------------------------------------------------------------------------------------------
+    
 * What is PIP
 * easy_install
 * Managing packages
@@ -840,16 +839,18 @@ An object is called iterable if we can get an iterator from it
 * Distributing python apps
 * Publishing python apps
 
+### Deployment
 ---------------------------------------------------------------------------------------------------------------------
-  
-### Environments
-* Whats is envs
-* Creating envs
-    * Using Pipenv
-    * Using virtualenv
-* activating and deactivating envs
-* Installing packages in envs
-* environment variables
+1.	Virtual environments
+    1.	Using Pipenv
+    1.	Using virtualenv
+1.	activating and deactivating envs
+1.	Dependency management in virtual environment
+1.	Self-terminating scripts
+1.	Infinite running scripts
+1.	Scripts with systemctl services
+1.	Python variables
+
     1. PYTHONSTARTUP: 
         - file executed on interactive startup (no default)
         
@@ -892,9 +893,18 @@ An object is called iterable if we can get an iterator from it
     1. PYTHONDEVMODE: 
         - enable the development mode.
 
+    
+## Development best practices 
 ---------------------------------------------------------------------------------------------------------------------
+    
+1.	Code tags
+1.	PEP standards
+1.	Doc strings
+1.	Naming convention
+
 
 ## Object Oriented Python
+---------------------------------------------------------------------------------------------------------------------
 
 ### Classes and Objects
 1. class
